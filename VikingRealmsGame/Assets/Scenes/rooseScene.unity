@@ -340,6 +340,48 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1567254223 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7551621183606078207, guid: 0eca6cfb11ebef94b9c1449c30ef7d21, type: 3}
+  m_PrefabInstance: {fileID: 2687626771590772867}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1567254229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567254223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1c2bdb9388da0844b44a186556d5af3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health2
+  maxHP: 6
+  currentHP: 6
+--- !u!114 &1567254230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567254223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f35f4dd3a3fbb6643a41e780da771a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  maxHealth: 5
+  destroyOnDeath: 1
+  OnHealthChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1099884086853862075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -449,10 +491,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6123577807892470182, guid: 0eca6cfb11ebef94b9c1449c30ef7d21, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7551621183606078207, guid: 0eca6cfb11ebef94b9c1449c30ef7d21, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1567254229}
+    - targetCorrespondingSourceObject: {fileID: 7551621183606078207, guid: 0eca6cfb11ebef94b9c1449c30ef7d21, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1567254230}
   m_SourcePrefab: {fileID: 100100000, guid: 0eca6cfb11ebef94b9c1449c30ef7d21, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

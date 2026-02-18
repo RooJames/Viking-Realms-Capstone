@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Health : MonoBehaviour
+public class Health2 : MonoBehaviour
 {
     public int maxHP = 5;
     public int currentHP;
@@ -15,10 +15,10 @@ public class Health : MonoBehaviour
         currentHP -= amount;
 
         if (currentHP <= 0)
-            Die();
+            Dead();
     }
 
-    void Die()
+    void Dead()
     {
         Destroy(gameObject);
     }
