@@ -1,88 +1,67 @@
 fileFormatVersion: 2
-guid: 3afe8df45924d6f4e95010ceb8f312e6
+guid: 11baf6de85b6e3e43802b5a5844a5d75
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7780650916591488912
-    second: MCGuy_2_0
+      213: 8443198579902593463
+    second: Slime3_Hurt_shadow_0
   - first:
-      213: -867637673679162613
-    second: MCGuy_2_1
+      213: -1656682842353297964
+    second: Slime3_Hurt_shadow_1
   - first:
-      213: -1340608399445007123
-    second: MCGuy_2_2
+      213: 41986692295017080
+    second: Slime3_Hurt_shadow_2
   - first:
-      213: -2838825729446529704
-    second: MCGuy_2_3
+      213: 4035722081607467472
+    second: Slime3_Hurt_shadow_3
   - first:
-      213: -2324190541293892750
-    second: MCGuy_2_4
+      213: -3663477726625824154
+    second: Slime3_Hurt_shadow_4
   - first:
-      213: 144384457976626966
-    second: MCGuy_2_5
+      213: -8515844782759912079
+    second: Slime3_Hurt_shadow_5
   - first:
-      213: 93664763904993949
-    second: MCGuy_2_6
+      213: -1760666251144506198
+    second: Slime3_Hurt_shadow_6
   - first:
-      213: 889643055623674266
-    second: MCGuy_2_7
+      213: 6618021978762356756
+    second: Slime3_Hurt_shadow_7
   - first:
-      213: 503055332477647800
-    second: MCGuy_2_8
+      213: -8617490194962207644
+    second: Slime3_Hurt_shadow_8
   - first:
-      213: 8669806015357715834
-    second: MCGuy_2_9
+      213: -5695408643019588704
+    second: Slime3_Hurt_shadow_9
   - first:
-      213: 8405137235688717804
-    second: MCGuy_2_10
+      213: 7424912614418315809
+    second: Slime3_Hurt_shadow_10
   - first:
-      213: -7770649053842733520
-    second: MCGuy_2_11
+      213: 3346169669309992914
+    second: Slime3_Hurt_shadow_11
   - first:
-      213: -4234491155182093671
-    second: MCGuy_2_12
+      213: -1284636257412694490
+    second: Slime3_Hurt_shadow_12
   - first:
-      213: 7471863306037564864
-    second: MCGuy_2_13
+      213: 8090386739043969395
+    second: Slime3_Hurt_shadow_13
   - first:
-      213: 6946891944502837575
-    second: MCGuy_2_14
+      213: 5214262229694822039
+    second: Slime3_Hurt_shadow_14
   - first:
-      213: -2388113324876770477
-    second: MCGuy_2_15
+      213: -4419204601006633263
+    second: Slime3_Hurt_shadow_15
   - first:
-      213: 4943080885880728364
-    second: MCGuy_2_16
+      213: 1911469978213072070
+    second: Slime3_Hurt_shadow_16
   - first:
-      213: 226353477931181069
-    second: MCGuy_2_17
+      213: -3066472774196971102
+    second: Slime3_Hurt_shadow_17
   - first:
-      213: -8421031027640858855
-    second: MCGuy_2_18
+      213: 5774358187278831956
+    second: Slime3_Hurt_shadow_18
   - first:
-      213: 103548347113805473
-    second: MCGuy_2_19
-  - first:
-      213: -4575368618467322550
-    second: MCGuy_2_20
-  - first:
-      213: 423682318572842714
-    second: MCGuy_2_21
-  - first:
-      213: 8944641084536934874
-    second: MCGuy_2_22
-  - first:
-      213: -4267337249548015748
-    second: MCGuy_2_23
-  - first:
-      213: -5193995286047652840
-    second: MCGuy_2_24
-  - first:
-      213: 1007979519229982123
-    second: MCGuy_2_25
-  - first:
-      213: 4154173857934652877
-    second: MCGuy_2_26
+      213: -2675625450210072733
+    second: Slime3_Hurt_shadow_19
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -191,13 +170,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MCGuy_2_0
+      name: Slime3_Hurt_shadow_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1263
-        width: 241
-        height: 211
+        x: 23
+        y: 213
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0703f3b0733950490800000000000000
-      internalID: -7780650916591488912
+      spriteID: 7b93d2bdf544c2570800000000000000
+      internalID: 8443198579902593463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_1
+      name: Slime3_Hurt_shadow_1
       rect:
         serializedVersion: 2
-        x: 2
-        y: 991
-        width: 220
-        height: 233
+        x: 87
+        y: 213
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,20 +207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b037b9af12885f3f0800000000000000
-      internalID: -867637673679162613
+      spriteID: 4d51c0c7bb74209e0800000000000000
+      internalID: -1656682842353297964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_2
+      name: Slime3_Hurt_shadow_2
       rect:
         serializedVersion: 2
-        x: 226
-        y: 1207
-        width: 798
-        height: 267
+        x: 151
+        y: 213
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de4ec2873c3356de0800000000000000
-      internalID: -1340608399445007123
+      spriteID: 872c9879caa259000800000000000000
+      internalID: 41986692295017080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_3
+      name: Slime3_Hurt_shadow_3
       rect:
         serializedVersion: 2
-        x: 246
-        y: 1259
-        width: 187
-        height: 206
+        x: 215
+        y: 213
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,20 +251,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 855b9113a077a98d0800000000000000
-      internalID: -2838825729446529704
+      spriteID: 0d1c96ed9d3c10830800000000000000
+      internalID: 4035722081607467472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_4
+      name: Slime3_Hurt_shadow_4
       rect:
         serializedVersion: 2
-        x: 443
-        y: 1261
-        width: 229
-        height: 204
+        x: 279
+        y: 213
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,20 +273,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27bcadb4401debfd0800000000000000
-      internalID: -2324190541293892750
+      spriteID: 66289e5ea66b82dc0800000000000000
+      internalID: -3663477726625824154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_5
+      name: Slime3_Hurt_shadow_5
       rect:
         serializedVersion: 2
-        x: 227
-        y: 991
-        width: 166
-        height: 205
+        x: 23
+        y: 149
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,20 +295,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61fb8c846e4f00200800000000000000
-      internalID: 144384457976626966
+      spriteID: 17d5b39f944a1d980800000000000000
+      internalID: -8515844782759912079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_6
+      name: Slime3_Hurt_shadow_6
       rect:
         serializedVersion: 2
-        x: 255
-        y: 1079
-        width: 7
-        height: 9
+        x: 87
+        y: 149
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,20 +317,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9a27844b93cc4100800000000000000
-      internalID: 93664763904993949
+      spriteID: aa4538c7f5bd097e0800000000000000
+      internalID: -1760666251144506198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_7
+      name: Slime3_Hurt_shadow_7
       rect:
         serializedVersion: 2
-        x: 411
-        y: 991
-        width: 172
-        height: 202
+        x: 151
+        y: 149
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,20 +339,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a99975345a5a85c00800000000000000
-      internalID: 889643055623674266
+      spriteID: 418abd70defe7db50800000000000000
+      internalID: 6618021978762356756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_8
+      name: Slime3_Hurt_shadow_8
       rect:
         serializedVersion: 2
-        x: 584
-        y: 991
-        width: 172
-        height: 205
+        x: 215
+        y: 149
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,20 +361,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8bb32bad8263bf600800000000000000
-      internalID: 503055332477647800
+      spriteID: 46cadd93356886880800000000000000
+      internalID: -8617490194962207644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_9
+      name: Slime3_Hurt_shadow_9
       rect:
         serializedVersion: 2
-        x: 749
-        y: 991
-        width: 273
-        height: 202
+        x: 279
+        y: 149
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,20 +383,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7501f8e2a6515870800000000000000
-      internalID: 8669806015357715834
+      spriteID: 0abb026c308d5f0b0800000000000000
+      internalID: -5695408643019588704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_10
+      name: Slime3_Hurt_shadow_10
       rect:
         serializedVersion: 2
-        x: 2
-        y: 791
-        width: 239
-        height: 161
+        x: 23
+        y: 85
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,20 +405,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ced72a598cb05a470800000000000000
-      internalID: 8405137235688717804
+      spriteID: 12a78b61fa69a0760800000000000000
+      internalID: 7424912614418315809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_11
+      name: Slime3_Hurt_shadow_11
       rect:
         serializedVersion: 2
-        x: 247
-        y: 791
-        width: 218
-        height: 138
+        x: 87
+        y: 85
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,20 +427,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0368a7f2bdb192490800000000000000
-      internalID: -7770649053842733520
+      spriteID: 2df8861e59bff6e20800000000000000
+      internalID: 3346169669309992914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_12
+      name: Slime3_Hurt_shadow_12
       rect:
         serializedVersion: 2
-        x: 455
-        y: 791
-        width: 180
-        height: 138
+        x: 151
+        y: 85
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,20 +449,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99a76dacab01c35c0800000000000000
-      internalID: -4234491155182093671
+      spriteID: 62e3453512e0c2ee0800000000000000
+      internalID: -1284636257412694490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_13
+      name: Slime3_Hurt_shadow_13
       rect:
         serializedVersion: 2
-        x: 633
-        y: 791
-        width: 170
-        height: 138
+        x: 215
+        y: 85
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,20 +471,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c515a6d61461b760800000000000000
-      internalID: 7471863306037564864
+      spriteID: 3792f3cdfd3d64070800000000000000
+      internalID: 8090386739043969395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_14
+      name: Slime3_Hurt_shadow_14
       rect:
         serializedVersion: 2
-        x: 804
-        y: 791
-        width: 209
-        height: 161
+        x: 279
+        y: 85
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,20 +493,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7414d15da61586060800000000000000
-      internalID: 6946891944502837575
+      spriteID: 79632be1fd7cc5840800000000000000
+      internalID: 5214262229694822039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_15
+      name: Slime3_Hurt_shadow_15
       rect:
         serializedVersion: 2
-        x: 60
-        y: 567
-        width: 220
-        height: 139
+        x: 23
+        y: 21
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,20 +515,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 353d7537597bbded0800000000000000
-      internalID: -2388113324876770477
+      spriteID: 1de4a3f44d4dba2c0800000000000000
+      internalID: -4419204601006633263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_16
+      name: Slime3_Hurt_shadow_16
       rect:
         serializedVersion: 2
-        x: 278
-        y: 567
-        width: 185
-        height: 138
+        x: 87
+        y: 21
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,20 +537,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c2ba1fa40e9599440800000000000000
-      internalID: 4943080885880728364
+      spriteID: 6ccb63a51d7e68a10800000000000000
+      internalID: 1911469978213072070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_17
+      name: Slime3_Hurt_shadow_17
       rect:
         serializedVersion: 2
-        x: 479
-        y: 567
-        width: 202
-        height: 139
+        x: 151
+        y: 21
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,20 +559,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0423c5f94b242300800000000000000
-      internalID: 226353477931181069
+      spriteID: 2a9359c3243b175d0800000000000000
+      internalID: -3066472774196971102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_18
+      name: Slime3_Hurt_shadow_18
       rect:
         serializedVersion: 2
-        x: 719
-        y: 567
-        width: 258
-        height: 138
+        x: 215
+        y: 21
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,20 +581,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9178cea95ec722b80800000000000000
-      internalID: -8421031027640858855
+      spriteID: 4519f9e6d24a22050800000000000000
+      internalID: 5774358187278831956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MCGuy_2_19
+      name: Slime3_Hurt_shadow_19
       rect:
         serializedVersion: 2
-        x: 2
-        y: 319
-        width: 265
-        height: 178
+        x: 279
+        y: 21
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,162 +603,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a61cce4ca0ef6100800000000000000
-      internalID: 103548347113805473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MCGuy_2_20
-      rect:
-        serializedVersion: 2
-        x: 266
-        y: 319
-        width: 209
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a4519cb9b760180c0800000000000000
-      internalID: -4575368618467322550
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MCGuy_2_21
-      rect:
-        serializedVersion: 2
-        x: 437
-        y: 319
-        width: 226
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: adee520f2d831e500800000000000000
-      internalID: 423682318572842714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MCGuy_2_22
-      rect:
-        serializedVersion: 2
-        x: 668
-        y: 319
-        width: 356
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad15037fcafb12c70800000000000000
-      internalID: 8944641084536934874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MCGuy_2_23
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 8
-        width: 1022
-        height: 282
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c77e5ef716f57c4c0800000000000000
-      internalID: -4267337249548015748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MCGuy_2_24
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 80
-        width: 283
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 814831a6ec83be7b0800000000000000
-      internalID: -5193995286047652840
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MCGuy_2_25
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 80
-        width: 174
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba5729048001dfd00800000000000000
-      internalID: 1007979519229982123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MCGuy_2_26
-      rect:
-        serializedVersion: 2
-        x: 466
-        y: 80
-        width: 199
-        height: 213
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc5b8613d1796a930800000000000000
-      internalID: 4154173857934652877
+      spriteID: 367eb3044d44edad0800000000000000
+      internalID: -2675625450210072733
       vertices: []
       indices: 
       edges: []
@@ -798,33 +623,26 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MCGuy_2_0: -7780650916591488912
-      MCGuy_2_1: -867637673679162613
-      MCGuy_2_10: 8405137235688717804
-      MCGuy_2_11: -7770649053842733520
-      MCGuy_2_12: -4234491155182093671
-      MCGuy_2_13: 7471863306037564864
-      MCGuy_2_14: 6946891944502837575
-      MCGuy_2_15: -2388113324876770477
-      MCGuy_2_16: 4943080885880728364
-      MCGuy_2_17: 226353477931181069
-      MCGuy_2_18: -8421031027640858855
-      MCGuy_2_19: 103548347113805473
-      MCGuy_2_2: -1340608399445007123
-      MCGuy_2_20: -4575368618467322550
-      MCGuy_2_21: 423682318572842714
-      MCGuy_2_22: 8944641084536934874
-      MCGuy_2_23: -4267337249548015748
-      MCGuy_2_24: -5193995286047652840
-      MCGuy_2_25: 1007979519229982123
-      MCGuy_2_26: 4154173857934652877
-      MCGuy_2_3: -2838825729446529704
-      MCGuy_2_4: -2324190541293892750
-      MCGuy_2_5: 144384457976626966
-      MCGuy_2_6: 93664763904993949
-      MCGuy_2_7: 889643055623674266
-      MCGuy_2_8: 503055332477647800
-      MCGuy_2_9: 8669806015357715834
+      Slime3_Hurt_shadow_0: 8443198579902593463
+      Slime3_Hurt_shadow_1: -1656682842353297964
+      Slime3_Hurt_shadow_10: 7424912614418315809
+      Slime3_Hurt_shadow_11: 3346169669309992914
+      Slime3_Hurt_shadow_12: -1284636257412694490
+      Slime3_Hurt_shadow_13: 8090386739043969395
+      Slime3_Hurt_shadow_14: 5214262229694822039
+      Slime3_Hurt_shadow_15: -4419204601006633263
+      Slime3_Hurt_shadow_16: 1911469978213072070
+      Slime3_Hurt_shadow_17: -3066472774196971102
+      Slime3_Hurt_shadow_18: 5774358187278831956
+      Slime3_Hurt_shadow_19: -2675625450210072733
+      Slime3_Hurt_shadow_2: 41986692295017080
+      Slime3_Hurt_shadow_3: 4035722081607467472
+      Slime3_Hurt_shadow_4: -3663477726625824154
+      Slime3_Hurt_shadow_5: -8515844782759912079
+      Slime3_Hurt_shadow_6: -1760666251144506198
+      Slime3_Hurt_shadow_7: 6618021978762356756
+      Slime3_Hurt_shadow_8: -8617490194962207644
+      Slime3_Hurt_shadow_9: -5695408643019588704
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
