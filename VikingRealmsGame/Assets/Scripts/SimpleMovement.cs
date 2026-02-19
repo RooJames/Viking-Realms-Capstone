@@ -1,27 +1,44 @@
 using UnityEngine;
 
-public class SimpleMovment :MonoBehaviour
+public class SimpleMovment : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float speed = 5;
+    public Rigidbody2D rb;
+    public Animator anim;
 
-    private Rigidbody2D rb;
-    private float speedX;
-    private float speedY;
-
-    void Start ()
+    void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update ()
+    void FixedUpdate()
     {
-        speedX = Input.GetAxisRaw("Horizontal");
-        speedY = Input.GetAxisRaw("Vertical");
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
+
+        // Flip only horizontally
+        if (horizontal > 0 && transform.localScale.x < 0 ||
+            horizontal < 0 && transform.localScale.x > 0)
+        {
+            FlipHorizontal();
+        }
+
+        // Send signed values to Blend Tree
+        anim.SetFloat("MoveX", horizontal);
+        anim.SetFloat("MoveY", vertical);
+
+        bool isMoving = horizontal != 0 || vertical != 0;
+        anim.SetBool("IsMoving", isMoving);
+
+        rb.linearVelocity = new Vector2(horizontal, vertical) * speed;
     }
 
-    void FixedUpdate ()
+    void FlipHorizontal()
     {
-        rb.linearVelocity = new Vector2(speedX * moveSpeed, speedY * moveSpeed);
+        transform.localScale = new Vector3(
+            transform.localScale.x * -1,
+            transform.localScale.y,
+            transform.localScale.z
+        );
     }
 }
-
