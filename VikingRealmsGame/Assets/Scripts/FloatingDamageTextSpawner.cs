@@ -27,7 +27,7 @@ public class DamageTextSpawner : MonoBehaviour
             health.OnDamaged.RemoveListener(SpawnDamageText);
     }
 
-    private void SpawnDamageText(float damage)
+    public void SpawnDamageText(float damage)
     {
         if (damageTextPrefab == null || worldCanvas == null) return;
 

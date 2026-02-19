@@ -3,11 +3,10 @@ using UnityEngine;
 public class HitFlash : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer spriteRenderer;
-    [SerializeField] private Color flashColor = Color.orangeRed;
+    [SerializeField] private Color flashColor = Color.red;
     [SerializeField] private float flashDuration = 0.1f;
 
     private Color originalColor;
-    private Health health;
     private float flashTimer;
     private bool isFlashing;
 
@@ -17,22 +16,9 @@ public class HitFlash : MonoBehaviour
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
         originalColor = spriteRenderer.color;
-        health = GetComponent<Health>();
     }
 
-    private void OnEnable()
-    {
-        if (health != null)
-            health.OnDamaged.AddListener(HandleHit);
-    }
-
-    private void OnDisable()
-    {
-        if (health != null)
-            health.OnDamaged.RemoveListener(HandleHit);
-    }
-
-    private void HandleHit(float damage)
+    public void HandleHit(float damage)
     {
         isFlashing = true;
         flashTimer = flashDuration;

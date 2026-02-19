@@ -27,7 +27,7 @@ public class HealthBarUI : MonoBehaviour
             targetHealth.OnHealthChanged.RemoveListener(UpdateBar);
     }
 
-    private void UpdateBar(float current, float max)
+    public void UpdateBar(float current, float max)
     {
         slider.maxValue = max;
         slider.value = current;
