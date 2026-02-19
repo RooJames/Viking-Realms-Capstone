@@ -2,45 +2,42 @@ using UnityEngine;
 
 public class SimpleMovment : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float speed = 5;
+    public Rigidbody2D rb;
     public Animator anim;
-
-    private Rigidbody2D rb;
-    private float speedX;
-    private float speedY;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
 
-        // auto-find animator if you forgot to drag it in Inspector
+        // auto-find animator if not assigned
         if (anim == null)
             anim = GetComponent<Animator>();
     }
 
     void FixedUpdate()
     {
-        speedX = Input.GetAxisRaw("Horizontal");
-        speedY = Input.GetAxisRaw("Vertical");
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
 
-        // flip left/right
-        if ((speedX > 0 && transform.localScale.x < 0) ||
-            (speedX < 0 && transform.localScale.x > 0))
+        // Flip only horizontally
+        if ((horizontal > 0 && transform.localScale.x < 0) ||
+            (horizontal < 0 && transform.localScale.x > 0))
         {
-            Flip();
+            FlipHorizontal();
         }
 
-        // feed your animator params (keep your 0.1 thresholds in Animator transitions)
-        if (anim != null)
-        {
-            anim.SetFloat("speedX", Mathf.Abs(speedX));
-            anim.SetFloat("speedY", Mathf.Abs(speedY));
-        }
+        // Send signed values to Blend Tree
+        anim.SetFloat("MoveX", horizontal);
+        anim.SetFloat("MoveY", vertical);
 
-        rb.linearVelocity = new Vector2(speedX * moveSpeed, speedY * moveSpeed);
+        bool isMoving = horizontal != 0 || vertical != 0;
+        anim.SetBool("IsMoving", isMoving);
+
+        rb.linearVelocity = new Vector2(horizontal, vertical) * speed;
     }
 
-    void Flip()
+    void FlipHorizontal()
     {
         transform.localScale = new Vector3(
             transform.localScale.x * -1,
@@ -49,5 +46,3 @@ public class SimpleMovment : MonoBehaviour
         );
     }
 }
-
-
