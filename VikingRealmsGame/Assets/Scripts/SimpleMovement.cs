@@ -9,6 +9,10 @@ public class SimpleMovment : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        // auto-find animator if not assigned
+        if (anim == null)
+            anim = GetComponent<Animator>();
     }
 
     void FixedUpdate()
@@ -17,8 +21,8 @@ public class SimpleMovment : MonoBehaviour
         float vertical = Input.GetAxisRaw("Vertical");
 
         // Flip only horizontally
-        if (horizontal > 0 && transform.localScale.x < 0 ||
-            horizontal < 0 && transform.localScale.x > 0)
+        if ((horizontal > 0 && transform.localScale.x < 0) ||
+            (horizontal < 0 && transform.localScale.x > 0))
         {
             FlipHorizontal();
         }
