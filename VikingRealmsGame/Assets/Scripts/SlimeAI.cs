@@ -92,5 +92,11 @@ public class SlimeAI : MonoBehaviour
             }
         }
     }
+    void Awake()
+    {
+    rb = gameObject.AddComponent<Rigidbody2D>();
+    rb.gravityScale = 0f;
+    rb.freezeRotation = true;
+    }
 }
 
