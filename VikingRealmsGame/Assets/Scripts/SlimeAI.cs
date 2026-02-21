@@ -58,7 +58,7 @@ public class SlimeAI : MonoBehaviour
         patrolTimer -= Time.deltaTime;
 
         // Move in a random direction
-        rb.velocity = patrolDirection * moveSpeed;
+        rb.linearVelocity = patrolDirection * moveSpeed;
 
         // Pick a new direction occasionally
         if (patrolTimer <= 0)
@@ -71,7 +71,7 @@ public class SlimeAI : MonoBehaviour
     void ChasePlayer()
     {
         Vector2 direction = (player.position - transform.position).normalized;
-        rb.velocity = direction * chaseSpeed;
+        rb.linearVelocity = direction * chaseSpeed;
     }
 
     Vector2 GetRandomDirection()
