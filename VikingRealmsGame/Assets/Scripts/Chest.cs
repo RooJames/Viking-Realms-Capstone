@@ -36,7 +36,7 @@ public class Chest : MonoBehaviour, IInteractable
         if (itemPrefab)
         {
             GameObject item = Instantiate(itemPrefab, transform.position + Vector3.down, Quaternion.identity);
-           // droppedItem.GetComponent<BounceEffect>().StartBounce();
+           //droppedItem.GetComponent<BounceEffect>().StartBounce();
         }
     }
     public void SetOpened(bool opened)

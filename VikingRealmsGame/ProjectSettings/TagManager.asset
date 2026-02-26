@@ -54,11 +54,23 @@ TagManager:
   - name: Player
     uniqueID: 2807372053
     locked: 0
+  - name: Ysort0
+    uniqueID: 2695673077
+    locked: 0
+  - name: Ysort
+    uniqueID: 3321505413
+    locked: 0
   - name: Walkbehind
     uniqueID: 172415499
     locked: 0
   - name: Decor
     uniqueID: 2198993385
+    locked: 0
+  - name: EE0
+    uniqueID: 2030027787
+    locked: 0
+  - name: EnvironmentalEffects (EE1)
+    uniqueID: 2178663357
     locked: 0
   m_RenderingLayers:
   - Default
