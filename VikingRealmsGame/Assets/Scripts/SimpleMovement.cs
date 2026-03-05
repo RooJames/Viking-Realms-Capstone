@@ -6,28 +6,32 @@ public class SimpleMovment : MonoBehaviour
     public Rigidbody2D rb;
     public Animator anim;
 
+    private KnockbackReceiver knockback;   // NEW
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        knockback = GetComponent<KnockbackReceiver>();   // NEW
 
-        // auto-find animator if not assigned
         if (anim == null)
             anim = GetComponent<Animator>();
     }
 
     void FixedUpdate()
     {
+        // NEW: stop movement during knockback / hit-stun
+        if (knockback != null && knockback.InHitStun)
+            return;
+
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
-        // Flip only horizontally
         if ((horizontal > 0 && transform.localScale.x < 0) ||
             (horizontal < 0 && transform.localScale.x > 0))
         {
             FlipHorizontal();
         }
 
-        // Send signed values to Blend Tree
         anim.SetFloat("MoveX", horizontal);
         anim.SetFloat("MoveY", vertical);
 
