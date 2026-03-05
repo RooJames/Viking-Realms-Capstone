@@ -1,5 +1,6 @@
-using UnityEngine;
+﻿using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class SlimeAI : MonoBehaviour
 {
     [Header("Movement Settings")]
@@ -11,92 +12,154 @@ public class SlimeAI : MonoBehaviour
     public int damage = 1;
     public float attackCooldown = 1f;
 
+    [Tooltip("Distance from slime to player where an attack should trigger (reliable even without collisions).")]
+    public float attackRange = 0.8f;
+
+    [Header("Patrol Settings")]
+    public float minPatrolTime = 1f;
+    public float maxPatrolTime = 3f;
+
     [Header("References")]
     public Transform player;
-    public Rigidbody2D rb;
+
+    private Rigidbody2D rb;
+    private Animator animator;
 
     private Vector2 patrolDirection;
     private float patrolTimer;
     private float nextAttackTime;
 
-    private enum State { Idle, Patrol, Chase }
+    private enum State { Patrol, Chase }
     private State currentState = State.Patrol;
+
+    // ✅ Match these EXACTLY to your Animator parameters (case-sensitive)
+    private const string P_IS_MOVING = "IsMoving";   // change to "isMoving" if needed
+    private const string P_IS_CHASING = "isChasing"; // optional; add this bool or remove the line in Update()
+    private const string P_MOVEX = "moveX";
+    private const string P_MOVEY = "moveY";
+    private const string T_ATTACK = "attack";
+
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = 0f;
+        rb.freezeRotation = true;
+
+        animator = GetComponent<Animator>();
+    }
 
     void Start()
     {
         if (player == null)
-            player = GameObject.FindGameObjectWithTag("Player").transform;
+        {
+            GameObject p = GameObject.FindGameObjectWithTag("Player");
+            if (p != null) player = p.transform;
+        }
 
-        patrolDirection = GetRandomDirection();
-        patrolTimer = Random.Range(1f, 3f);
+        PickNewPatrol();
     }
 
     void Update()
     {
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-
-        // State switching
-        if (distanceToPlayer <= detectionRange)
-            currentState = State.Chase;
-        else if (currentState == State.Chase && distanceToPlayer > detectionRange)
-            currentState = State.Patrol;
-
-        switch (currentState)
+        if (player == null)
         {
-            case State.Patrol:
-                Patrol();
-                break;
-
-            case State.Chase:
-                ChasePlayer();
-                break;
+            rb.linearVelocity = Vector2.zero;
+            UpdateAnimator(Vector2.zero);
+            return;
         }
+
+        float dist = Vector2.Distance(transform.position, player.position);
+        currentState = (dist <= detectionRange) ? State.Chase : State.Patrol;
+
+        if (animator != null)
+            animator.SetBool(P_IS_CHASING, currentState == State.Chase);
     }
 
-    void Patrol()
+    void FixedUpdate()
     {
-        patrolTimer -= Time.deltaTime;
-
-        // Move in a random direction
-        rb.linearVelocity = patrolDirection * moveSpeed;
-
-        // Pick a new direction occasionally
-        if (patrolTimer <= 0)
+        if (player == null)
         {
-            patrolDirection = GetRandomDirection();
-            patrolTimer = Random.Range(1f, 3f);
+            rb.linearVelocity = Vector2.zero;
+            UpdateAnimator(Vector2.zero);
+            return;
         }
+
+        float distToPlayer = Vector2.Distance(rb.position, player.position);
+        bool canAttackNow = distToPlayer <= attackRange && Time.time >= nextAttackTime;
+
+        if (canAttackNow)
+        {
+            rb.linearVelocity = Vector2.zero;
+            UpdateAnimator(Vector2.zero);
+
+            if (animator != null)
+            {
+                // Face the player for directional attack
+                Vector2 toPlayer = (Vector2)player.position - rb.position;
+                if (toPlayer.sqrMagnitude > 0.0001f)
+                {
+                    Vector2 dir = toPlayer.normalized;
+                    animator.SetFloat(P_MOVEX, dir.x);
+                    animator.SetFloat(P_MOVEY, dir.y);
+                }
+
+                animator.SetTrigger(T_ATTACK);
+            }
+
+            nextAttackTime = Time.time + attackCooldown;
+            return;
+        }
+
+        Vector2 velocity = currentState == State.Patrol ? PatrolMove() : ChaseMove(distToPlayer);
+
+        rb.linearVelocity = velocity;
+        UpdateAnimator(velocity);
     }
 
-    void ChasePlayer()
+    Vector2 PatrolMove()
     {
-        Vector2 direction = (player.position - transform.position).normalized;
-        rb.linearVelocity = direction * chaseSpeed;
+        patrolTimer -= Time.fixedDeltaTime;
+        if (patrolTimer <= 0f) PickNewPatrol();
+        return patrolDirection * moveSpeed;
+    }
+
+    Vector2 ChaseMove(float distToPlayer)
+    {
+        if (distToPlayer <= attackRange)
+            return Vector2.zero;
+
+        Vector2 toPlayer = (Vector2)player.position - rb.position;
+        if (toPlayer.sqrMagnitude < 0.0001f)
+            return Vector2.zero;
+
+        return toPlayer.normalized * chaseSpeed;
+    }
+
+    void PickNewPatrol()
+    {
+        patrolDirection = GetRandomDirection();
+        patrolTimer = Random.Range(minPatrolTime, maxPatrolTime);
     }
 
     Vector2 GetRandomDirection()
     {
-        return new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
+        Vector2 dir = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
+        if (dir.sqrMagnitude < 0.01f) dir = Vector2.right;
+        return dir.normalized;
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    void UpdateAnimator(Vector2 velocity)
     {
-        if (collision.collider.CompareTag("Player"))
-        {
-            if (Time.time >= nextAttackTime)
-            {
-                // Call your player damage script here
-                // Example: collision.collider.GetComponent<PlayerHealth>().TakeDamage(damage);
+        if (animator == null) return;
 
-                nextAttackTime = Time.time + attackCooldown;
-            }
+        bool moving = velocity.sqrMagnitude > 0.01f;
+        animator.SetBool(P_IS_MOVING, moving);
+
+        if (moving)
+        {
+            Vector2 dir = velocity.normalized;
+            animator.SetFloat(P_MOVEX, dir.x);
+            animator.SetFloat(P_MOVEY, dir.y);
         }
     }
-    void Awake()
-    {
-    rb = gameObject.AddComponent<Rigidbody2D>();
-    rb.gravityScale = 0f;
-    rb.freezeRotation = true;
-    }
 }
-
