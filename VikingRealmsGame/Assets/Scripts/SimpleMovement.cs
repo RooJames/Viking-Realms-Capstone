@@ -2,9 +2,12 @@ using UnityEngine;
 
 public class SimpleMovment : MonoBehaviour
 {
-    public float speed = 5;
+    public float speed = 5f;
     public Rigidbody2D rb;
     public Animator anim;
+
+    // Last direction moved/aimed (used for shooting)
+    public Vector2 AimDirection { get; private set; } = Vector2.right;
 
     void Start()
     {
@@ -20,21 +23,29 @@ public class SimpleMovment : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
-        // Flip only horizontally
+        Vector2 input = new Vector2(horizontal, vertical);
+
+        // Update aim direction ONLY when moving
+        if (input.sqrMagnitude > 0.01f)
+            AimDirection = input.normalized;
+
+        // Flip only horizontally (keep your working flip)
         if ((horizontal > 0 && transform.localScale.x < 0) ||
             (horizontal < 0 && transform.localScale.x > 0))
         {
             FlipHorizontal();
         }
 
-        // Send signed values to Blend Tree
-        anim.SetFloat("MoveX", horizontal);
-        anim.SetFloat("MoveY", vertical);
+        // Animator params (must match controller)
+        if (anim != null)
+        {
+            anim.SetFloat("MoveX", horizontal);
+            anim.SetFloat("MoveY", vertical);
+            anim.SetBool("IsMoving", input.sqrMagnitude > 0.01f);
+        }
 
-        bool isMoving = horizontal != 0 || vertical != 0;
-        anim.SetBool("IsMoving", isMoving);
-
-        rb.linearVelocity = new Vector2(horizontal, vertical) * speed;
+        // Movement (keep linearVelocity)
+        rb.linearVelocity = input * speed;
     }
 
     void FlipHorizontal()

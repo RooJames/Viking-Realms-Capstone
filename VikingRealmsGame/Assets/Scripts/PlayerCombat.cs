@@ -6,6 +6,8 @@ public class PlayerCombat : MonoBehaviour
     public Animator anim;
     public GameObject meleeHitbox;
 
+    private SimpleMovment move;
+
     [Header("Melee")]
     public float atkDuration = 0.25f;
     public float atkCooldown = 0.25f;
@@ -20,13 +22,15 @@ public class PlayerCombat : MonoBehaviour
     public float fireForce = 10f;
     public float shootCooldown = 0.25f;
 
+    [Tooltip("Extra distance in front of aim to spawn bullet (prevents clipping).")]
+    public float bulletSpawnOffset = 0.35f;
+
     private float shootTimer = 0f;
 
     void Start()
     {
-        // auto-find animator if you forgot to assign it
-        if (anim == null)
-            anim = GetComponent<Animator>();
+        if (anim == null) anim = GetComponent<Animator>();
+        move = GetComponent<SimpleMovment>();
 
         if (meleeHitbox != null)
             meleeHitbox.SetActive(false);
@@ -47,7 +51,7 @@ public class PlayerCombat : MonoBehaviour
                 EndMelee();
         }
 
-        //  isAttacking so you don’t restart attack mid-swing
+        // Melee
         if ((Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0))
             && atkCooldownTimer >= atkCooldown
             && !isAttacking)
@@ -55,8 +59,11 @@ public class PlayerCombat : MonoBehaviour
             StartMelee();
         }
 
+        // Ranged
         if (Input.GetKeyDown(KeyCode.Q) || Input.GetMouseButtonDown(1))
+        {
             Shoot();
+        }
     }
 
     void StartMelee()
@@ -83,21 +90,44 @@ public class PlayerCombat : MonoBehaviour
 
     void Shoot()
     {
-        if (shootTimer < shootCooldown) return;
-        shootTimer = 0f;
+    if (shootTimer < shootCooldown) return;
+    shootTimer = 0f;
 
-        if (bulletPrefab == null || aim == null) return;
+    if (bulletPrefab == null || aim == null) return;
 
-        GameObject b = Instantiate(bulletPrefab, aim.position, aim.rotation);
+    // Get last movement direction
+    Vector2 rawDir = (move != null) ? move.AimDirection : Vector2.right;
 
-        Rigidbody2D rb = b.GetComponent<Rigidbody2D>();
-       if (rb != null)
-        {
-         Vector2 dir = (transform.localScale.x < 0) ? Vector2.left : Vector2.right;
-         rb.AddForce(dir * fireForce, ForceMode2D.Impulse);
-        }
+    // Clamp to horizontal only
+    float x = rawDir.x;
 
+    // If player was moving straight up/down,
+    // fall back to flip direction
+    if (Mathf.Abs(x) < 0.01f)
+        x = (transform.localScale.x < 0) ? -1f : 1f;
 
-        Destroy(b, 2f);
+    Vector2 dir = (x < 0) ? Vector2.left : Vector2.right;
+
+    // Spawn slightly in front of player
+    //float spawnOffset = 0.70f;
+    Vector3 spawnPos = aim.position + (Vector3)(dir);
+
+    GameObject b = Instantiate(bulletPrefab, spawnPos, Quaternion.identity);
+
+    Rigidbody2D rb = b.GetComponent<Rigidbody2D>();
+    if (rb != null)
+    {
+        // FORCE travel direction
+        rb.linearVelocity = dir * fireForce;
+    }
+
+    // Flip sprite ONLY when shooting LEFT
+    SpriteRenderer sr = b.GetComponentInChildren<SpriteRenderer>();
+    if (sr != null)
+    {
+        sr.flipX = (dir.x < 0);
+    }
+
+    Destroy(b, 2f);
     }
 }
