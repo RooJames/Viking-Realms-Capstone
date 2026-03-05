@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: 2e4f6aa504fe0014981b4656d7a3d99f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5383201809794759177
+    second: nav_buttons1_0
+  - first:
+      213: -4401577041882234995
+    second: nav_buttons1_1
+  - first:
+      213: 1170733156600561936
+    second: nav_buttons1_2
+  - first:
+      213: 2987909334491236300
+    second: nav_buttons1_3
+  - first:
+      213: -8868928524475044507
+    second: nav_buttons1_4
+  - first:
+      213: -3266082076378495852
+    second: nav_buttons1_5
+  - first:
+      213: -1414951227844947184
+    second: nav_buttons1_6
+  - first:
+      213: -2540960511632140805
+    second: nav_buttons1_7
+  - first:
+      213: -8525360415774154282
+    second: nav_buttons1_8
+  - first:
+      213: 2545642968227033355
+    second: nav_buttons1_9
+  - first:
+      213: -7646081216241985411
+    second: nav_buttons1_10
+  - first:
+      213: 6840852151214927685
+    second: nav_buttons1_11
+  - first:
+      213: 2493894385331285690
+    second: nav_buttons1_12
+  - first:
+      213: -5200312570538032477
+    second: nav_buttons1_13
+  - first:
+      213: -7798932689404807573
+    second: nav_buttons1_14
+  - first:
+      213: -9155802773391531689
+    second: nav_buttons1_15
+  - first:
+      213: 3536233471149594259
+    second: nav_buttons1_16
+  - first:
+      213: 5002063042191990360
+    second: nav_buttons1_17
+  - first:
+      213: 3473313833198771786
+    second: nav_buttons1_18
+  - first:
+      213: -368951035582699090
+    second: nav_buttons1_19
+  - first:
+      213: -3166587373646305674
+    second: nav_buttons1_20
+  - first:
+      213: 6419872052536255748
+    second: nav_buttons1_21
+  - first:
+      213: 7201273112711363130
+    second: nav_buttons1_22
+  - first:
+      213: -8890104388805014635
+    second: nav_buttons1_23
+  - first:
+      213: -2963871661680780026
+    second: nav_buttons1_24
+  - first:
+      213: -1607857465525621715
+    second: nav_buttons1_25
+  - first:
+      213: -4483488428918818144
+    second: nav_buttons1_26
+  - first:
+      213: 8880738444060719535
+    second: nav_buttons1_27
+  - first:
+      213: -1405115085116118887
+    second: nav_buttons1_28
+  - first:
+      213: 249077269487573384
+    second: nav_buttons1_29
+  - first:
+      213: -2220996927028800141
+    second: nav_buttons1_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nav_buttons1_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1
+        width: 798
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f581f4b9760b45b0800000000000000
+      internalID: -5383201809794759177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_1
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 680
+        width: 676
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f381f30057ae2c0800000000000000
+      internalID: -4401577041882234995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_2
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 929
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011c2f56a974f3010800000000000000
+      internalID: 1170733156600561936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 914
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc78c6785bf277920800000000000000
+      internalID: 2987909334491236300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_4
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 854
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56de5502f7c3be480800000000000000
+      internalID: -8868928524475044507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_5
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 787
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494803ee7ab8ca2d0800000000000000
+      internalID: -3266082076378495852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_6
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 715
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0139cc1ea551d5ce0800000000000000
+      internalID: -1414951227844947184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 467
+        width: 631
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf51fd390e1bcbcd0800000000000000
+      internalID: -2540960511632140805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_8
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 360
+        width: 692
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1ea930fd5dfa980800000000000000
+      internalID: -8525360415774154282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_9
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 675
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b01b42ecac0f35320800000000000000
+      internalID: 2545642968227033355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_10
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 671
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d781c1ef4a9a3e590800000000000000
+      internalID: -7646081216241985411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_11
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 576
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fe12289c69fee50800000000000000
+      internalID: 6840852151214927685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_12
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 570
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe2301fab71c9220800000000000000
+      internalID: 2493894385331285690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_13
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 501
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a205100547c4d7b0800000000000000
+      internalID: -5200312570538032477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_14
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 503
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6638dc1a00a4c390800000000000000
+      internalID: -7798932689404807573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_15
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 503
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751267a13ed00f080800000000000000
+      internalID: -9155802773391531689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_16
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 494
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396d7b23b99331130800000000000000
+      internalID: 3536233471149594259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_17
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 303
+        width: 601
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e96f5b5d5ea6540800000000000000
+      internalID: 5002063042191990360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_18
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 467
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e53456780b33030800000000000000
+      internalID: 3473313833198771786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_19
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 333
+        width: 449
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9a498ecf831eaf0800000000000000
+      internalID: -368951035582699090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_20
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 358
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676239b9f850e04d0800000000000000
+      internalID: -3166587373646305674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_21
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 312
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405a1ea2e97f71950800000000000000
+      internalID: 6419872052536255748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_22
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 145
+        width: 462
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a7bb5fdbf00f360800000000000000
+      internalID: 7201273112711363130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_23
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1
+        width: 676
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bc221092100a480800000000000000
+      internalID: -8890104388805014635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_24
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 264
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d9bad4d663ed6d0800000000000000
+      internalID: -2963871661680780026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_25
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 220
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ca2e5672ebfa9e0800000000000000
+      internalID: -1607857465525621715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_26
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 221
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa38b7470377c1c0800000000000000
+      internalID: -4483488428918818144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_27
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 227
+        width: 46
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9f46d0098be3b70800000000000000
+      internalID: 8880738444060719535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_28
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 143
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9986c135647008ce0800000000000000
+      internalID: -1405115085116118887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_29
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 136
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8895e69f476e47300800000000000000
+      internalID: 249077269487573384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_buttons1_30
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 122
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375d63def0f6d21e0800000000000000
+      internalID: -2220996927028800141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nav_buttons1_0: -5383201809794759177
+      nav_buttons1_1: -4401577041882234995
+      nav_buttons1_10: -7646081216241985411
+      nav_buttons1_11: 6840852151214927685
+      nav_buttons1_12: 2493894385331285690
+      nav_buttons1_13: -5200312570538032477
+      nav_buttons1_14: -7798932689404807573
+      nav_buttons1_15: -9155802773391531689
+      nav_buttons1_16: 3536233471149594259
+      nav_buttons1_17: 5002063042191990360
+      nav_buttons1_18: 3473313833198771786
+      nav_buttons1_19: -368951035582699090
+      nav_buttons1_2: 1170733156600561936
+      nav_buttons1_20: -3166587373646305674
+      nav_buttons1_21: 6419872052536255748
+      nav_buttons1_22: 7201273112711363130
+      nav_buttons1_23: -8890104388805014635
+      nav_buttons1_24: -2963871661680780026
+      nav_buttons1_25: -1607857465525621715
+      nav_buttons1_26: -4483488428918818144
+      nav_buttons1_27: 8880738444060719535
+      nav_buttons1_28: -1405115085116118887
+      nav_buttons1_29: 249077269487573384
+      nav_buttons1_3: 2987909334491236300
+      nav_buttons1_30: -2220996927028800141
+      nav_buttons1_4: -8868928524475044507
+      nav_buttons1_5: -3266082076378495852
+      nav_buttons1_6: -1414951227844947184
+      nav_buttons1_7: -2540960511632140805
+      nav_buttons1_8: -8525360415774154282
+      nav_buttons1_9: 2545642968227033355
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
