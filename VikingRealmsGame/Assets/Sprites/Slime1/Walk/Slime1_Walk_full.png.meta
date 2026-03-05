@@ -233,12 +233,12 @@ TextureImporter:
       name: Slime1_Walk_full_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 213
-        width: 19
-        height: 20
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -255,12 +255,12 @@ TextureImporter:
       name: Slime1_Walk_full_1
       rect:
         serializedVersion: 2
-        x: 87
-        y: 213
-        width: 19
-        height: 22
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: Slime1_Walk_full_2
       rect:
         serializedVersion: 2
-        x: 151
-        y: 213
-        width: 20
-        height: 24
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -299,12 +299,12 @@ TextureImporter:
       name: Slime1_Walk_full_3
       rect:
         serializedVersion: 2
-        x: 214
-        y: 213
-        width: 22
-        height: 22
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -321,12 +321,12 @@ TextureImporter:
       name: Slime1_Walk_full_4
       rect:
         serializedVersion: 2
-        x: 227
-        y: 233
-        width: 6
-        height: 6
+        x: 256
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -343,12 +343,12 @@ TextureImporter:
       name: Slime1_Walk_full_5
       rect:
         serializedVersion: 2
-        x: 276
-        y: 213
-        width: 25
-        height: 27
+        x: 320
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -365,12 +365,12 @@ TextureImporter:
       name: Slime1_Walk_full_6
       rect:
         serializedVersion: 2
-        x: 338
-        y: 213
-        width: 28
-        height: 27
+        x: 384
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -387,12 +387,12 @@ TextureImporter:
       name: Slime1_Walk_full_7
       rect:
         serializedVersion: 2
-        x: 402
-        y: 213
-        width: 29
-        height: 13
+        x: 448
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -409,12 +409,12 @@ TextureImporter:
       name: Slime1_Walk_full_8
       rect:
         serializedVersion: 2
-        x: 407
-        y: 224
-        width: 6
-        height: 6
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -431,12 +431,12 @@ TextureImporter:
       name: Slime1_Walk_full_9
       rect:
         serializedVersion: 2
-        x: 469
-        y: 213
-        width: 22
-        height: 19
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -453,12 +453,12 @@ TextureImporter:
       name: Slime1_Walk_full_10
       rect:
         serializedVersion: 2
-        x: 23
-        y: 149
-        width: 19
-        height: 20
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -475,12 +475,12 @@ TextureImporter:
       name: Slime1_Walk_full_11
       rect:
         serializedVersion: 2
-        x: 87
-        y: 149
-        width: 19
-        height: 22
+        x: 192
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -497,12 +497,12 @@ TextureImporter:
       name: Slime1_Walk_full_12
       rect:
         serializedVersion: 2
-        x: 150
-        y: 149
-        width: 20
-        height: 24
+        x: 256
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -519,12 +519,12 @@ TextureImporter:
       name: Slime1_Walk_full_13
       rect:
         serializedVersion: 2
-        x: 213
-        y: 149
-        width: 23
-        height: 22
+        x: 320
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -541,12 +541,12 @@ TextureImporter:
       name: Slime1_Walk_full_14
       rect:
         serializedVersion: 2
-        x: 216
-        y: 169
-        width: 6
-        height: 6
+        x: 384
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -563,12 +563,12 @@ TextureImporter:
       name: Slime1_Walk_full_15
       rect:
         serializedVersion: 2
-        x: 276
-        y: 149
-        width: 25
-        height: 27
+        x: 448
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -585,12 +585,12 @@ TextureImporter:
       name: Slime1_Walk_full_16
       rect:
         serializedVersion: 2
-        x: 338
-        y: 149
-        width: 28
-        height: 27
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -607,12 +607,12 @@ TextureImporter:
       name: Slime1_Walk_full_17
       rect:
         serializedVersion: 2
-        x: 402
-        y: 149
-        width: 29
-        height: 13
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -629,12 +629,12 @@ TextureImporter:
       name: Slime1_Walk_full_18
       rect:
         serializedVersion: 2
-        x: 420
-        y: 160
-        width: 6
-        height: 6
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -651,12 +651,12 @@ TextureImporter:
       name: Slime1_Walk_full_19
       rect:
         serializedVersion: 2
-        x: 469
-        y: 149
-        width: 23
-        height: 19
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -673,12 +673,12 @@ TextureImporter:
       name: Slime1_Walk_full_20
       rect:
         serializedVersion: 2
-        x: 85
-        y: 85
-        width: 19
-        height: 22
+        x: 256
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -695,12 +695,12 @@ TextureImporter:
       name: Slime1_Walk_full_21
       rect:
         serializedVersion: 2
-        x: 145
-        y: 85
-        width: 23
-        height: 24
+        x: 320
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -717,12 +717,12 @@ TextureImporter:
       name: Slime1_Walk_full_22
       rect:
         serializedVersion: 2
-        x: 209
-        y: 85
-        width: 23
-        height: 22
+        x: 384
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -739,12 +739,12 @@ TextureImporter:
       name: Slime1_Walk_full_23
       rect:
         serializedVersion: 2
-        x: 220
-        y: 105
-        width: 6
-        height: 6
+        x: 448
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -761,12 +761,12 @@ TextureImporter:
       name: Slime1_Walk_full_24
       rect:
         serializedVersion: 2
-        x: 269
-        y: 85
-        width: 28
-        height: 27
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -783,12 +783,12 @@ TextureImporter:
       name: Slime1_Walk_full_25
       rect:
         serializedVersion: 2
-        x: 336
-        y: 85
-        width: 27
-        height: 27
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -805,12 +805,12 @@ TextureImporter:
       name: Slime1_Walk_full_26
       rect:
         serializedVersion: 2
-        x: 23
-        y: 85
-        width: 20
-        height: 19
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -827,12 +827,12 @@ TextureImporter:
       name: Slime1_Walk_full_27
       rect:
         serializedVersion: 2
-        x: 404
-        y: 85
-        width: 25
-        height: 10
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -849,12 +849,12 @@ TextureImporter:
       name: Slime1_Walk_full_28
       rect:
         serializedVersion: 2
-        x: 418
-        y: 95
-        width: 6
-        height: 6
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -871,12 +871,12 @@ TextureImporter:
       name: Slime1_Walk_full_29
       rect:
         serializedVersion: 2
-        x: 470
-        y: 85
-        width: 24
-        height: 18
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -893,12 +893,12 @@ TextureImporter:
       name: Slime1_Walk_full_30
       rect:
         serializedVersion: 2
-        x: 88
-        y: 21
-        width: 19
-        height: 22
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -915,12 +915,12 @@ TextureImporter:
       name: Slime1_Walk_full_31
       rect:
         serializedVersion: 2
-        x: 152
-        y: 21
-        width: 23
-        height: 24
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -933,187 +933,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Slime1_Walk_full_32
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 21
-        width: 23
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 31f5dd5ae6d46a4c0800000000000000
-      internalID: -4276645658517217517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime1_Walk_full_33
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 41
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9e1345b206a91af0800000000000000
-      internalID: -425126159248580964
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime1_Walk_full_34
-      rect:
-        serializedVersion: 2
-        x: 279
-        y: 21
-        width: 28
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 851e0869e5cd920c0800000000000000
-      internalID: -4599903245572185768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime1_Walk_full_35
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 21
-        width: 27
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f189ff9eb9f3b17f0800000000000000
-      internalID: -640848583091840993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime1_Walk_full_36
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 21
-        width: 20
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e62443a3ddb2a5140800000000000000
-      internalID: 4709124589533545070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime1_Walk_full_37
-      rect:
-        serializedVersion: 2
-        x: 403
-        y: 21
-        width: 25
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf611af90b1a46dc0800000000000000
-      internalID: -3646612018298808580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime1_Walk_full_38
-      rect:
-        serializedVersion: 2
-        x: 408
-        y: 31
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 562ef4abc53648020800000000000000
-      internalID: 2343106956053439077
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime1_Walk_full_39
-      rect:
-        serializedVersion: 2
-        x: 466
-        y: 21
-        width: 24
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 312d562932b0d1ca0800000000000000
-      internalID: -6044662877453430253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b6755e506ec7552409f33288fab08cc4
     internalID: 0
     vertices: []
     indices: 
@@ -1121,7 +945,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":4.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Slime1_Walk_full_0: -1040486726084658542
       Slime1_Walk_full_1: -9042389951339456768
@@ -1149,14 +975,6 @@ TextureImporter:
       Slime1_Walk_full_3: -2504203091174464889
       Slime1_Walk_full_30: 9059869567430870663
       Slime1_Walk_full_31: -6653709107452621271
-      Slime1_Walk_full_32: -4276645658517217517
-      Slime1_Walk_full_33: -425126159248580964
-      Slime1_Walk_full_34: -4599903245572185768
-      Slime1_Walk_full_35: -640848583091840993
-      Slime1_Walk_full_36: 4709124589533545070
-      Slime1_Walk_full_37: -3646612018298808580
-      Slime1_Walk_full_38: 2343106956053439077
-      Slime1_Walk_full_39: -6044662877453430253
       Slime1_Walk_full_4: 451884253285811147
       Slime1_Walk_full_5: -4094901737144760225
       Slime1_Walk_full_6: 9042856133426918875

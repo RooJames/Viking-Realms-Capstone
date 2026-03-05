@@ -4,7 +4,7 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Item
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -54,11 +54,8 @@ TagManager:
   - name: Player
     uniqueID: 2807372053
     locked: 0
-  - name: Ysort0
-    uniqueID: 2695673077
-    locked: 0
-  - name: Ysort
-    uniqueID: 3321505413
+  - name: Enemies
+    uniqueID: 490113803
     locked: 0
   - name: Walkbehind
     uniqueID: 172415499
