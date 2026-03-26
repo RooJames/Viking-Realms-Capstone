@@ -31,11 +31,13 @@ public class ItemButtonController : MonoBehaviour
     public void Selected()
     {
         selected = true;
+        ItemWheelController.weaponID = ID;
     }
 
     public void Deselected()
     {
         selected = false;
+        ItemWheelController.weaponID = 0;
     }
 
     public void HoverEnter()
