@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 484ba98ad6177fd489e4142305df0991
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8442174237432893582
+    second: Boar_Attack_with_shadow_0
+  - first:
+      213: -572414507251299053
+    second: Boar_Attack_with_shadow_1
+  - first:
+      213: 9076040289743061479
+    second: Boar_Attack_with_shadow_2
+  - first:
+      213: 6977878857303640244
+    second: Boar_Attack_with_shadow_3
+  - first:
+      213: -3922310929214068155
+    second: Boar_Attack_with_shadow_4
+  - first:
+      213: 5237050782912928085
+    second: Boar_Attack_with_shadow_5
+  - first:
+      213: -3185645208127128221
+    second: Boar_Attack_with_shadow_6
+  - first:
+      213: 3379014212911206671
+    second: Boar_Attack_with_shadow_7
+  - first:
+      213: 7019037020635452428
+    second: Boar_Attack_with_shadow_8
+  - first:
+      213: 6625794912168807230
+    second: Boar_Attack_with_shadow_9
+  - first:
+      213: -2608371584452346509
+    second: Boar_Attack_with_shadow_10
+  - first:
+      213: -5215290055965918137
+    second: Boar_Attack_with_shadow_11
+  - first:
+      213: -391955689820252853
+    second: Boar_Attack_with_shadow_12
+  - first:
+      213: -8653145719738932663
+    second: Boar_Attack_with_shadow_13
+  - first:
+      213: -7026357196264344443
+    second: Boar_Attack_with_shadow_14
+  - first:
+      213: -2853258484446032727
+    second: Boar_Attack_with_shadow_15
+  - first:
+      213: -9039661180963711206
+    second: Boar_Attack_with_shadow_16
+  - first:
+      213: -7617455433999553147
+    second: Boar_Attack_with_shadow_17
+  - first:
+      213: 3984403576916203900
+    second: Boar_Attack_with_shadow_18
+  - first:
+      213: -7425088950696564757
+    second: Boar_Attack_with_shadow_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 99
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80542a8db0a82570800000000000000
+      internalID: 8442174237432893582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 99
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d8107d9006e08f0800000000000000
+      internalID: -572414507251299053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 99
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1c44d7e8294fd70800000000000000
+      internalID: 9076040289743061479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 99
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8ca4fa9d766d060800000000000000
+      internalID: 6977878857303640244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 99
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a209dbdf62199c0800000000000000
+      internalID: -3922310929214068155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 67
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559d432a0fdbda840800000000000000
+      internalID: 5237050782912928085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 67
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d382dbf805ac3d0800000000000000
+      internalID: -3185645208127128221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 67
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01919b168ba4ee20800000000000000
+      internalID: 3379014212911206671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 67
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04da485bf0a86160800000000000000
+      internalID: 7019037020635452428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 67
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b896e1e5d83fb50800000000000000
+      internalID: 6625794912168807230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 35
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dbe7a1dd33dcbd0800000000000000
+      internalID: -2608371584452346509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 35
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c368d63519f97b0800000000000000
+      internalID: -5215290055965918137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 35
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b451294706e7f8af0800000000000000
+      internalID: -391955689820252853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 35
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942e44170d9d9e780800000000000000
+      internalID: -8653145719738932663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 35
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58477a37b5d5d7e90800000000000000
+      internalID: -7026357196264344443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac893e86803768d0800000000000000
+      internalID: -2853258484446032727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 3
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1715c2dc0cac8280800000000000000
+      internalID: -9039661180963711206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 3
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d661c44ac594690800000000000000
+      internalID: -7617455433999553147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 3
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79d2e361f17b4730800000000000000
+      internalID: 3984403576916203900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Attack_with_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 3
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7ad0c60f8c4f890800000000000000
+      internalID: -7425088950696564757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boar_Attack_with_shadow_0: 8442174237432893582
+      Boar_Attack_with_shadow_1: -572414507251299053
+      Boar_Attack_with_shadow_10: -2608371584452346509
+      Boar_Attack_with_shadow_11: -5215290055965918137
+      Boar_Attack_with_shadow_12: -391955689820252853
+      Boar_Attack_with_shadow_13: -8653145719738932663
+      Boar_Attack_with_shadow_14: -7026357196264344443
+      Boar_Attack_with_shadow_15: -2853258484446032727
+      Boar_Attack_with_shadow_16: -9039661180963711206
+      Boar_Attack_with_shadow_17: -7617455433999553147
+      Boar_Attack_with_shadow_18: 3984403576916203900
+      Boar_Attack_with_shadow_19: -7425088950696564757
+      Boar_Attack_with_shadow_2: 9076040289743061479
+      Boar_Attack_with_shadow_3: 6977878857303640244
+      Boar_Attack_with_shadow_4: -3922310929214068155
+      Boar_Attack_with_shadow_5: 5237050782912928085
+      Boar_Attack_with_shadow_6: -3185645208127128221
+      Boar_Attack_with_shadow_7: 3379014212911206671
+      Boar_Attack_with_shadow_8: 7019037020635452428
+      Boar_Attack_with_shadow_9: 6625794912168807230
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

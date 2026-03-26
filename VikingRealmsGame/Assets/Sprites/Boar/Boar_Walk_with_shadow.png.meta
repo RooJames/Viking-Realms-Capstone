@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: bbfad4418aa65bb4db7437e1bc0f6290
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7101717524931708526
+    second: Boar_Walk_with_shadow_0
+  - first:
+      213: -5448973329225373927
+    second: Boar_Walk_with_shadow_1
+  - first:
+      213: -2734995923524459392
+    second: Boar_Walk_with_shadow_2
+  - first:
+      213: 4181239461347081457
+    second: Boar_Walk_with_shadow_3
+  - first:
+      213: 4932198529733702562
+    second: Boar_Walk_with_shadow_4
+  - first:
+      213: -5828601592491103584
+    second: Boar_Walk_with_shadow_5
+  - first:
+      213: 7383854866844875331
+    second: Boar_Walk_with_shadow_6
+  - first:
+      213: -4370228288682274224
+    second: Boar_Walk_with_shadow_7
+  - first:
+      213: -8460199305072588291
+    second: Boar_Walk_with_shadow_8
+  - first:
+      213: -3947064126495633586
+    second: Boar_Walk_with_shadow_9
+  - first:
+      213: -7854982320052900980
+    second: Boar_Walk_with_shadow_10
+  - first:
+      213: 5550847148745357475
+    second: Boar_Walk_with_shadow_11
+  - first:
+      213: 6100155933104752551
+    second: Boar_Walk_with_shadow_12
+  - first:
+      213: -4846208651569640660
+    second: Boar_Walk_with_shadow_13
+  - first:
+      213: 5421939869925462835
+    second: Boar_Walk_with_shadow_14
+  - first:
+      213: 3692185006330760378
+    second: Boar_Walk_with_shadow_15
+  - first:
+      213: -5556913202350005109
+    second: Boar_Walk_with_shadow_16
+  - first:
+      213: -7920216477863193860
+    second: Boar_Walk_with_shadow_17
+  - first:
+      213: 8348831999371355192
+    second: Boar_Walk_with_shadow_18
+  - first:
+      213: -4137118491206529662
+    second: Boar_Walk_with_shadow_19
+  - first:
+      213: -8416800615503768473
+    second: Boar_Walk_with_shadow_20
+  - first:
+      213: -136850244294371821
+    second: Boar_Walk_with_shadow_21
+  - first:
+      213: -1947116056211388409
+    second: Boar_Walk_with_shadow_22
+  - first:
+      213: -9034504763906207070
+    second: Boar_Walk_with_shadow_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 99
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299774f9981a17d90800000000000000
+      internalID: -7101717524931708526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 99
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917a1f080ab5164b0800000000000000
+      internalID: -5448973329225373927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 99
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084ee2cb2b75b0ad0800000000000000
+      internalID: -2734995923524459392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 99
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc307e032fb60a30800000000000000
+      internalID: 4181239461347081457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 99
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a33b7e4e60b27440800000000000000
+      internalID: 4932198529733702562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 99
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aaaa4e9bb5ac1fa0800000000000000
+      internalID: -5828601592491103584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 67
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34af35b41e8b87660800000000000000
+      internalID: 7383854866844875331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 67
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052dab1a684d953c0800000000000000
+      internalID: -4370228288682274224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 67
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9442c5e85579a80800000000000000
+      internalID: -8460199305072588291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 67
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f4a82e6163939c0800000000000000
+      internalID: -3947064126495633586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 67
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8be548823f7df290800000000000000
+      internalID: -7854982320052900980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 67
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8f4777212980d40800000000000000
+      internalID: 5550847148745357475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 35
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7433b408b18a450800000000000000
+      internalID: 6100155933104752551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 35
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b44cf58eecebcb0800000000000000
+      internalID: -4846208651569640660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 35
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3335f64c5999e3b40800000000000000
+      internalID: 5421939869925462835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 35
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc4e5383b64d3330800000000000000
+      internalID: 3692185006330760378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 35
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84ef3e52e0e1e2b0800000000000000
+      internalID: -5556913202350005109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 35
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2d4c4931db51290800000000000000
+      internalID: -7920216477863193860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834a1fb28720dd370800000000000000
+      internalID: 8348831999371355192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d4fe1d6a00696c0800000000000000
+      internalID: -4137118491206529662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 3
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764db9f2f64813b80800000000000000
+      internalID: -8416800615503768473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 3
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31698698d6fc91ef0800000000000000
+      internalID: -136850244294371821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 3
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7088f0d53447af4e0800000000000000
+      internalID: -1947116056211388409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar_Walk_with_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 3
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2dbc9b8cdfe9280800000000000000
+      internalID: -9034504763906207070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boar_Walk_with_shadow_0: -7101717524931708526
+      Boar_Walk_with_shadow_1: -5448973329225373927
+      Boar_Walk_with_shadow_10: -7854982320052900980
+      Boar_Walk_with_shadow_11: 5550847148745357475
+      Boar_Walk_with_shadow_12: 6100155933104752551
+      Boar_Walk_with_shadow_13: -4846208651569640660
+      Boar_Walk_with_shadow_14: 5421939869925462835
+      Boar_Walk_with_shadow_15: 3692185006330760378
+      Boar_Walk_with_shadow_16: -5556913202350005109
+      Boar_Walk_with_shadow_17: -7920216477863193860
+      Boar_Walk_with_shadow_18: 8348831999371355192
+      Boar_Walk_with_shadow_19: -4137118491206529662
+      Boar_Walk_with_shadow_2: -2734995923524459392
+      Boar_Walk_with_shadow_20: -8416800615503768473
+      Boar_Walk_with_shadow_21: -136850244294371821
+      Boar_Walk_with_shadow_22: -1947116056211388409
+      Boar_Walk_with_shadow_23: -9034504763906207070
+      Boar_Walk_with_shadow_3: 4181239461347081457
+      Boar_Walk_with_shadow_4: 4932198529733702562
+      Boar_Walk_with_shadow_5: -5828601592491103584
+      Boar_Walk_with_shadow_6: 7383854866844875331
+      Boar_Walk_with_shadow_7: -4370228288682274224
+      Boar_Walk_with_shadow_8: -8460199305072588291
+      Boar_Walk_with_shadow_9: -3947064126495633586
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
