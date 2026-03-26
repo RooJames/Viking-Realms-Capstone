@@ -117,8 +117,8 @@ public class OrcAI : MonoBehaviour
 
         Vector2 dir = ((Vector2)player.position - rb.position).normalized;
 
-        animator.SetFloat("moveX", dir.x);
-        animator.SetFloat("moveY", dir.y);
+        animator.SetFloat("MoveX", dir.x);
+        animator.SetFloat("MoveY", dir.y);
 
         if (runningAttack)
             animator.SetTrigger("runAttack");
@@ -145,8 +145,8 @@ public class OrcAI : MonoBehaviour
         if (moving)
         {
             Vector2 dir = velocity.normalized;
-            animator.SetFloat("moveX", dir.x);
-            animator.SetFloat("moveY", dir.y);
+            animator.SetFloat("MoveX", dir.x);
+            animator.SetFloat("MoveY", dir.y);
         }
     }
 }

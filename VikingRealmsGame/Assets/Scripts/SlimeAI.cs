@@ -106,6 +106,11 @@ public class SlimeAI : MonoBehaviour
                 animator.SetTrigger(T_ATTACK);
             }
 
+            // Deal damage to the player
+            Health2 playerHealth = player.GetComponentInParent<Health2>();
+            if (playerHealth != null)
+                playerHealth.TakeDamage(damage);
+
             nextAttackTime = Time.time + attackCooldown;
             return;
         }
