@@ -1,9 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ItemWheelController : MonoBehaviour
 {
-    //public Animator anim; //add animations later
+    public Animator anim; //add animations later
     private bool weaponWheelSelected = false;
 
      public GameObject itemWheel;
@@ -11,6 +12,7 @@ public class ItemWheelController : MonoBehaviour
     public Sprite noImage;
 
     public static int weaponID;
+    public TextMeshProUGUI itemText;
 
     void Start()
     {
@@ -28,12 +30,14 @@ public class ItemWheelController : MonoBehaviour
         if (weaponWheelSelected)
         {
             Time.timeScale = 0f; // pause game
-
+            anim.SetBool("OpenWeaponWheel", true);
+            itemText.gameObject.SetActive(true);
         }
         else
         {
             Time.timeScale = 1f; // resume game
-
+            anim.SetBool("OpenWeaponWheel", false);
+            itemText.gameObject.SetActive(false);
         }
 
         switch (weaponID)
