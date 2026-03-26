@@ -1,21 +1,34 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
     public GameObject menuCanvas;
-    // Start is called before the first frame update
+    private InteractionManager interactionManager;
+
     void Start()
     {
         menuCanvas.SetActive(false);
+        interactionManager = FindObjectOfType<InteractionManager>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Keyboard.current.tabKey.wasPressedThisFrame)
         {
-            menuCanvas.SetActive(!menuCanvas.activeSelf);
+            bool isActive = !menuCanvas.activeSelf;
+            menuCanvas.SetActive(isActive);
+
+            if (interactionManager != null)
+            {
+                interactionManager.SetPaused(isActive);
+            }
         }
+    }
+
+    public void QuitToMainMenu()
+    {
+        SceneManager.LoadScene("StartMenu");
     }
 }
