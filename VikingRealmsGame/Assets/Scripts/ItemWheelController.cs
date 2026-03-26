@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class ItemWheelController : MonoBehaviour
 {
-    //public Animator anim;
+    //public Animator anim; //add animations later
     private bool weaponWheelSelected = false;
 
      public GameObject itemWheel;
@@ -11,6 +11,11 @@ public class ItemWheelController : MonoBehaviour
     public Sprite noImage;
 
     public static int weaponID;
+
+    void Start()
+    {
+        itemWheel.SetActive(false);
+    }
 
     void Update()
     {
@@ -22,10 +27,12 @@ public class ItemWheelController : MonoBehaviour
 
         if (weaponWheelSelected)
         {
+            Time.timeScale = 0f; // pause game
 
         }
         else
         {
+            Time.timeScale = 1f; // resume game
 
         }
 
