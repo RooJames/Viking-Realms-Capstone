@@ -23,7 +23,7 @@ public class Weapon : MonoBehaviour
             hitThisSwing.Add(collision);
         }
 
-        Health hp = collision.GetComponent<Health>();
+        Health hp = collision.GetComponentInParent<Health>();
         if (hp != null)
         {
             hp.TakeDamage(Mathf.RoundToInt(damage));
