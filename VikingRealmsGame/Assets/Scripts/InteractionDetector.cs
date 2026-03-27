@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-// Detects nearby interactable objects and triggers interaction when player presses the interact button
 public class InteractionDetector : MonoBehaviour
 {
     private IInteractable interactableInRange = null;
@@ -12,16 +11,15 @@ public class InteractionDetector : MonoBehaviour
         interactionIcon.SetActive(false);
     }
 
-    // Called when player presses the interact input
-    public void OnInteract(InputAction.CallbackContext context)
+    void Update()
     {
-        if (context.performed)
+       
+        if (Keyboard.current.fKey.wasPressedThisFrame)
         {
             interactableInRange?.Interact();
         }
     }
 
-    // Shows interaction icon when player enters range of an interactable object
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.TryGetComponent(out IInteractable interactable) && interactable.CanInteract())
@@ -31,7 +29,6 @@ public class InteractionDetector : MonoBehaviour
         }
     }
 
-    // Hides interaction icon when player leaves range of the interactable object
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.TryGetComponent(out IInteractable interactable) && interactable == interactableInRange)

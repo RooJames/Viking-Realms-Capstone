@@ -1,0 +1,1492 @@
+fileFormatVersion: 2
+guid: 60ea6a6d5ff1fb746bdfe06706357509
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -486440195628618213
+    second: Trees_rocks_0
+  - first:
+      213: 8836797205436577192
+    second: Trees_rocks_1
+  - first:
+      213: 5459894583095715503
+    second: Trees_rocks_2
+  - first:
+      213: -9165993162564647963
+    second: Trees_rocks_3
+  - first:
+      213: 2859234042525731888
+    second: Trees_rocks_4
+  - first:
+      213: -8280323244060462987
+    second: Trees_rocks_5
+  - first:
+      213: 1488637196377823722
+    second: Trees_rocks_6
+  - first:
+      213: 8478739965728965373
+    second: Trees_rocks_7
+  - first:
+      213: 2244823579860874994
+    second: Trees_rocks_8
+  - first:
+      213: -950762635237805272
+    second: Trees_rocks_9
+  - first:
+      213: -5132909099097086355
+    second: Trees_rocks_10
+  - first:
+      213: -3044913596249200377
+    second: Trees_rocks_11
+  - first:
+      213: -3855891328293585737
+    second: Trees_rocks_12
+  - first:
+      213: 6846607113320711410
+    second: Trees_rocks_13
+  - first:
+      213: -5339307417061871908
+    second: Trees_rocks_14
+  - first:
+      213: -1663210974333014974
+    second: Trees_rocks_15
+  - first:
+      213: -4859738244318845850
+    second: Trees_rocks_16
+  - first:
+      213: -1442727405702070882
+    second: Trees_rocks_17
+  - first:
+      213: 2150500402056985409
+    second: Trees_rocks_18
+  - first:
+      213: 4429395900071525367
+    second: Trees_rocks_19
+  - first:
+      213: -3378793730418196981
+    second: Trees_rocks_20
+  - first:
+      213: 5982613234988829092
+    second: Trees_rocks_21
+  - first:
+      213: -2613509641054623297
+    second: Trees_rocks_22
+  - first:
+      213: 8220880824623299519
+    second: Trees_rocks_23
+  - first:
+      213: 8742865314853629472
+    second: Trees_rocks_24
+  - first:
+      213: 1020179218989924698
+    second: Trees_rocks_25
+  - first:
+      213: -2168220385872670423
+    second: Trees_rocks_26
+  - first:
+      213: 6239910108683634495
+    second: Trees_rocks_27
+  - first:
+      213: -5328328209517400354
+    second: Trees_rocks_28
+  - first:
+      213: -1079656519068126390
+    second: Trees_rocks_29
+  - first:
+      213: 34753171678220625
+    second: Trees_rocks_30
+  - first:
+      213: -3281666824954890798
+    second: Trees_rocks_31
+  - first:
+      213: 7581447697822034278
+    second: Trees_rocks_32
+  - first:
+      213: 8780002984658897838
+    second: Trees_rocks_33
+  - first:
+      213: -8918636251612579568
+    second: Trees_rocks_34
+  - first:
+      213: -8655586284877942719
+    second: Trees_rocks_35
+  - first:
+      213: 3617032554554866246
+    second: Trees_rocks_36
+  - first:
+      213: -6066015234518759887
+    second: Trees_rocks_37
+  - first:
+      213: 2845044805595936028
+    second: Trees_rocks_38
+  - first:
+      213: -369137434470279599
+    second: Trees_rocks_39
+  - first:
+      213: 6566255483478651086
+    second: Trees_rocks_40
+  - first:
+      213: 1135329445331901050
+    second: Trees_rocks_41
+  - first:
+      213: -187078030818608720
+    second: Trees_rocks_42
+  - first:
+      213: 1287615755737084010
+    second: Trees_rocks_43
+  - first:
+      213: -5243640091079378181
+    second: Trees_rocks_44
+  - first:
+      213: -5528199415721249155
+    second: Trees_rocks_45
+  - first:
+      213: -5143171842355814517
+    second: Trees_rocks_46
+  - first:
+      213: 8532207469353588389
+    second: Trees_rocks_47
+  - first:
+      213: -5717806104335632076
+    second: Trees_rocks_48
+  - first:
+      213: -2088689837163639435
+    second: Trees_rocks_49
+  - first:
+      213: -9144009283356602896
+    second: Trees_rocks_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Trunk_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 464
+        width: 61
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 25.5, y: -36}
+        - {x: 23.5, y: -22}
+        - {x: 14.5, y: -18}
+        - {x: 12.5, y: -18}
+        - {x: 7.5, y: -17}
+        - {x: 7.5, y: 10}
+        - {x: -3.5, y: 10}
+        - {x: -3.5, y: -21}
+        - {x: -3.5, y: -22}
+        - {x: -5.5, y: -22}
+        - {x: -5.5, y: -23}
+        - {x: -6.5, y: -23}
+        - {x: -6.5, y: -22}
+        - {x: -7.5, y: -22}
+        - {x: -7.5, y: -21}
+        - {x: -9.5, y: -21}
+        - {x: -9.5, y: -22}
+        - {x: -10.5, y: -22}
+        - {x: -10.5, y: -21}
+        - {x: -11.5, y: -21}
+        - {x: -27.5, y: -20}
+        - {x: -26.5, y: -32}
+        - {x: -17.5, y: -40}
+        - {x: 17.5, y: -40}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf557d682f7d3546afb91ce65c42b43
+      internalID: -134355827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 469
+        width: 53
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 26.5, y: -29.5}
+        - {x: 26.5, y: -17.085083}
+        - {x: 18.5, y: -13.5}
+        - {x: 15.5, y: -13.5}
+        - {x: 15.5, y: -12.5}
+        - {x: 7.5, y: -12.5}
+        - {x: 7.5, y: 10.5}
+        - {x: -3.5, y: 10.5}
+        - {x: -3.5, y: -11.5}
+        - {x: -6.5, y: -11.5}
+        - {x: -13.5, y: -11.5}
+        - {x: -22.5, y: -23.5}
+        - {x: -10.5, y: -33.5}
+        - {x: 18.5, y: -34.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92444ee4da06d7f45b5e19cd707bf6f7
+      internalID: -1282390514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 466
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17543a91c3ab9734cb376525da08dc6a
+      internalID: -502138032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 471
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102f17a8c701607459053d13e0ad0749
+      internalID: -1928337402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 418
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8a5e0627dfc6f4db710715c32326d6
+      internalID: 461528541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 420
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6846d4889ad376e41a429cd8cde91203
+      internalID: -865539186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_6
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 416
+        width: 39
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 17.5, y: -11}
+        - {x: 4.5, y: -10}
+        - {x: 4.5, y: 5}
+        - {x: -5.5, y: 5}
+        - {x: -5.5, y: -10}
+        - {x: -12.5, y: -10}
+        - {x: -19.5, y: -12}
+        - {x: -17.5, y: -24}
+        - {x: 19.5, y: -24}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d60f00198119645869e8586ee6ae85
+      internalID: 170790710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 417
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7828f8a9e4349c04eb211219c04c1483
+      internalID: 1947270895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_8
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 419
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcf680449e1bab47868b3258b7dc5b5
+      internalID: 1137967114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 385
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38630bdb8f3754543a908d85c0c3a245
+      internalID: -881853508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 384
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b110f59fd107d4bb2411ca5d18d87f
+      internalID: -365717675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 384
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba5f1903a25b3b45a71980e62f7c11b
+      internalID: 1969165527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_12
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 385
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784458666034dca45a785314365be169
+      internalID: -356891761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_13
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 385
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12ea87e70b6a8944a43e13a3bedd3f4
+      internalID: 1347435430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_14
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 385
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0ed39fbd10bbb4499a706fa6b51405
+      internalID: -1331919036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 347
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bf67b0b7d096d449fe190a82ef68a7
+      internalID: -1438980437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_16
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 338
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a52778a1ad73064083acce12a631c6d
+      internalID: -1341097057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 353
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9356dda565865245bb9eda240135aa8
+      internalID: -1712500607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_18
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 353
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439fe66244b112e4c98ccd0f6fc693b1
+      internalID: -561215686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_19
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 353
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac469ce2d1ccc04e84e502b3136c510
+      internalID: -644881355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_20
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 358
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b7f51d35cc30c408104fa16e84d982
+      internalID: -831997815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_21
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 355
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a3634f44ae8264ab4004a300e10659
+      internalID: -1500967483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c69d160d3652c74593c0c0eca3010d6
+      internalID: -1067603472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 352
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51236c3939c75874bbfb649661ac003e
+      internalID: -1073908293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 305
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6452d6b1aa68db04fbc74e89d3e9fb1e
+      internalID: 1419037138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 307
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bbb7eab3908064f8b4bbb2f19fccc4
+      internalID: 1602566386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 310
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bdf91b439031a46a29e97e8ae94ffc
+      internalID: -1080506318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_27
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 325
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702fcfbc42cf0774e99117c00991a9e5
+      internalID: -1122572263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 307
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b62990aff0f794da0798098f0376ee
+      internalID: -156041093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_29
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 309
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666c176884643dd49b70a9d2b63746fa
+      internalID: 1916679744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_30
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 324
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82e8e2da9d4774408eed8a9c3f80a1a
+      internalID: -615116009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9671bb784b331458b1df7388cb2e31
+      internalID: 1117821344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_32
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 288
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04783bfaa768a0e4ab70272389c229e5
+      internalID: 218693936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_33
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 243
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6a2d04a801e454aaeee15588f5dbbd
+      internalID: 1119057406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_34
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 243
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26eace17bc8d29148ad3fc014f4575e1
+      internalID: -865500123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_35
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 241
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b9bf76ecaaf624d858827c426b6c1b
+      internalID: 310093593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_36
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 241
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c61925aa4befd34eb20fdd4f43598e2
+      internalID: 699855961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_37
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 130
+        width: 100
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa7bcc306112f149ae8d8a51e7da4e0
+      internalID: -828898300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_38
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 225
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f255c98185a1d75489863b3b8b05c949
+      internalID: 1022226179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_39
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 164
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1ea5cdc33331c4885eff5da5ad45d8
+      internalID: 1704703615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584ae60f891931b43aa455ea7a2530cf
+      internalID: -1249193655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_41
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 164
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790287c0259ad1e4d9eb3c1ed13c7f47
+      internalID: 1357324741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_42
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 50
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296429fa6b5c3b64eb0e4cf82cdf161f
+      internalID: 958819752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e082685508c734d87b1c89b52e51e6
+      internalID: -952743971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_44
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 103
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234e128e57b43084ebd3b5bd4bff73d4
+      internalID: 1884877405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 50
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5406ab2d15419a48839578de5b5c5a6
+      internalID: -756565231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5c063e72fc44f48b44544869bdcd6b
+      internalID: -884478995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_47
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70f682bf94afdf41bd88da41669b66d
+      internalID: 1051792956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ab67ba546df1a47933cdb3a493deb6
+      internalID: -558774508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_49
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 18
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7118cb54a8b38ee458de1a857ee9a716
+      internalID: 1097267567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trunk_50
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 18
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fe8408808118d4e974e963305a7627
+      internalID: -173850145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e66e5fc696f690b4bae9846cc1b4596b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Trunk_0: -134355827
+      Trunk_1: -1282390514
+      Trunk_10: -365717675
+      Trunk_11: 1969165527
+      Trunk_12: -356891761
+      Trunk_13: 1347435430
+      Trunk_14: -1331919036
+      Trunk_15: -1438980437
+      Trunk_16: -1341097057
+      Trunk_17: -1712500607
+      Trunk_18: -561215686
+      Trunk_19: -644881355
+      Trunk_2: -502138032
+      Trunk_20: -831997815
+      Trunk_21: -1500967483
+      Trunk_22: -1067603472
+      Trunk_23: -1073908293
+      Trunk_24: 1419037138
+      Trunk_25: 1602566386
+      Trunk_26: -1080506318
+      Trunk_27: -1122572263
+      Trunk_28: -156041093
+      Trunk_29: 1916679744
+      Trunk_3: -1928337402
+      Trunk_30: -615116009
+      Trunk_31: 1117821344
+      Trunk_32: 218693936
+      Trunk_33: 1119057406
+      Trunk_34: -865500123
+      Trunk_35: 310093593
+      Trunk_36: 699855961
+      Trunk_37: -828898300
+      Trunk_38: 1022226179
+      Trunk_39: 1704703615
+      Trunk_4: 461528541
+      Trunk_40: -1249193655
+      Trunk_41: 1357324741
+      Trunk_42: 958819752
+      Trunk_43: -952743971
+      Trunk_44: 1884877405
+      Trunk_45: -756565231
+      Trunk_46: -884478995
+      Trunk_47: 1051792956
+      Trunk_48: -558774508
+      Trunk_49: 1097267567
+      Trunk_5: -865539186
+      Trunk_50: -173850145
+      Trunk_6: 170790710
+      Trunk_7: 1947270895
+      Trunk_8: 1137967114
+      Trunk_9: -881853508
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3,21 +3,21 @@ using UnityEngine;
 public class Chest : MonoBehaviour, IInteractable
 {
     public bool IsOpened { get; private set; }
-    public string ChestID { get; private set; }
+    [SerializeField] private string chestID; // Manually set in Inspector
+    public string ChestID => chestID;
     public GameObject itemPrefab;
     public Sprite openedSprite;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        ChestID ??=GlobalHelper.GenerateUniqueID(gameObject);
+        // Only generate if not manually set
+        if (string.IsNullOrEmpty(chestID))
+        {
+            chestID = GlobalHelper.GenerateUniqueID(gameObject);
+            Debug.Log($"Generated Chest ID: {chestID}");
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public bool CanInteract()
     {
         return !IsOpened;
@@ -32,21 +32,19 @@ public class Chest : MonoBehaviour, IInteractable
     private void OpenChest()
     {
         SetOpened(true);
-        
+
         if (itemPrefab)
         {
-            GameObject item = Instantiate(itemPrefab, transform.position + Vector3.down, Quaternion.identity);
-           //droppedItem.GetComponent<BounceEffect>().StartBounce();
+            GameObject item = Instantiate(itemPrefab, transform.position + Vector3.down, itemPrefab.transform.rotation);
         }
     }
+
     public void SetOpened(bool opened)
     {
-       
-        if (IsOpened = opened)
+        IsOpened = opened;
+        if (IsOpened && openedSprite != null)
         {
             GetComponent<SpriteRenderer>().sprite = openedSprite;
-            Instantiate(itemPrefab, transform.position + Vector3.up, Quaternion.identity);
         }
     }
 }
-

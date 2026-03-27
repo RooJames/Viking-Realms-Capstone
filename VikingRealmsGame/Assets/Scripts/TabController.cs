@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class TabController : MonoBehaviour
 {
     public Image[] tabImages;
     public GameObject[] pages;
+    public Button[] tabButtons; // Add references to your tab buttons
 
     void Start()
     {
@@ -43,5 +45,8 @@ public class TabController : MonoBehaviour
         }
         pages[tabNo].SetActive(true);
         tabImages[tabNo].color = Color.white;
+
+        // Deselect all buttons to prevent highlighting
+        EventSystem.current.SetSelectedGameObject(null);
     }
 }
