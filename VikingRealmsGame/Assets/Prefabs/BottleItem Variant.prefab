@@ -16,6 +16,10 @@ PrefabInstance:
       propertyPath: ID
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -3774707301803573201, guid: 9bc5ed9f583ed8347822000f6ce1448e, type: 3}
+      propertyPath: itemName
+      value: Bottle
+      objectReference: {fileID: 0}
     - target: {fileID: -1229359100466253981, guid: 9bc5ed9f583ed8347822000f6ce1448e, type: 3}
       propertyPath: m_Intensity
       value: 0.53

@@ -297,6 +297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   ID: 1
+  itemName: Pendant
 --- !u!212 &-8238501140934726973
 SpriteRenderer:
   serializedVersion: 2

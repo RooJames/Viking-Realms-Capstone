@@ -3,6 +3,7 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     public int ID;
+    public string itemName = "Item";
     private Vector3 inventoryScale = new Vector3(0.55f, 0.6707f, 0.6707f);
     private Vector3 originalWorldScale;
 

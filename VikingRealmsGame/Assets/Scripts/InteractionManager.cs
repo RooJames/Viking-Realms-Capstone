@@ -19,6 +19,16 @@ public class InteractionManager : MonoBehaviour
         if (isPaused) return; // Don't process interactions when paused
 
         nearbyInteractables.RemoveAll(x => x == null || (x as MonoBehaviour) == null || !x.CanInteract());
+        
+        // Clamp index after cleanup in case items were removed
+        if (nearbyInteractables.Count > 0)
+        {
+            currentIndex = Mathf.Clamp(currentIndex, 0, nearbyInteractables.Count - 1);
+        }
+        else
+        {
+            currentIndex = 0;
+        }
 
         if (nearbyInteractables.Count > 0)
         {
@@ -30,31 +40,24 @@ public class InteractionManager : MonoBehaviour
 
             if (Input.GetKeyDown(interactKey))
             {
-                IInteractable current = nearbyInteractables[currentIndex];
-                if (current.CanInteract())
+                // Verify index is still valid before accessing
+                if (currentIndex < nearbyInteractables.Count)
                 {
-                    current.Interact();
-
-                    HideUI();
-
-                    if (current is WorldItem)
+                    IInteractable current = nearbyInteractables[currentIndex];
+                    if (current != null && current.CanInteract())
                     {
-                        nearbyInteractables.RemoveAt(currentIndex);
-                        if (currentIndex >= nearbyInteractables.Count)
-                        {
-                            currentIndex = 0;
-                        }
-                    }
-                    else if (!current.CanInteract())
-                    {
-                        nearbyInteractables.RemoveAt(currentIndex);
-                        if (currentIndex >= nearbyInteractables.Count)
-                        {
-                            currentIndex = 0;
-                        }
-                    }
+                        current.Interact();
+                        HideUI();
 
-                    UpdateUI();
+                        // Item will be removed by RemoveAll on next frame
+                        // Just clamp the index
+                        if (currentIndex >= nearbyInteractables.Count - 1)
+                        {
+                            currentIndex = Mathf.Max(0, nearbyInteractables.Count - 2);
+                        }
+
+                        UpdateUI();
+                    }
                 }
             }
 
