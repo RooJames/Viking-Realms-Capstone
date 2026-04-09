@@ -1,43 +1,43 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
-// Detects nearby interactable objects and triggers interaction when player presses the interact button
+// Detects nearby interactable objects and triggers interaction when player presses E.
+// Attach this to the Player GameObject alongside a CircleCollider2D set to Is Trigger.
 public class InteractionDetector : MonoBehaviour
 {
-    private IInteractable interactableInRange = null;
+    [Tooltip("Key the player presses to interact (default: E)")]
+    public KeyCode interactKey = KeyCode.E;
+
+    [Tooltip("Optional icon shown above the player when an interactable is in range")]
     public GameObject interactionIcon;
+
+    private IInteractable _inRange;
 
     void Start()
     {
-        interactionIcon.SetActive(false);
+        if (interactionIcon) interactionIcon.SetActive(false);
     }
 
-    // Called when player presses the interact input
-    public void OnInteract(InputAction.CallbackContext context)
+    void Update()
     {
-        if (context.performed)
-        {
-            interactableInRange?.Interact();
-        }
+        if (_inRange != null && Input.GetKeyDown(interactKey))
+            _inRange.Interact();
     }
 
-    // Shows interaction icon when player enters range of an interactable object
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.TryGetComponent(out IInteractable interactable) && interactable.CanInteract())
         {
-            interactableInRange = interactable;
-            interactionIcon.SetActive(true);
+            _inRange = interactable;
+            if (interactionIcon) interactionIcon.SetActive(true);
         }
     }
 
-    // Hides interaction icon when player leaves range of the interactable object
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.TryGetComponent(out IInteractable interactable) && interactable == interactableInRange)
+        if (collision.TryGetComponent(out IInteractable interactable) && interactable == _inRange)
         {
-            interactableInRange = null;
-            interactionIcon.SetActive(false);
+            _inRange = null;
+            if (interactionIcon) interactionIcon.SetActive(false);
         }
     }
 }

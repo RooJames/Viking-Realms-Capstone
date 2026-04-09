@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: 4cafffaa024a4f03a28530603a5067f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4048318746205767612
+    second: NPC_008_South_0
+  - first:
+      213: -5073688350632162123
+    second: NPC_008_South_1
+  - first:
+      213: -4171423470848752153
+    second: NPC_008_South_2
+  - first:
+      213: 3681552469018824462
+    second: NPC_008_South_3
+  - first:
+      213: 3785827587017756208
+    second: NPC_008_South_4
+  - first:
+      213: 6446182577609720754
+    second: NPC_008_South_5
+  - first:
+      213: -2352463666403260554
+    second: NPC_008_South_6
+  - first:
+      213: -3855010100058505056
+    second: NPC_008_South_7
+  - first:
+      213: 2476538675203490975
+    second: NPC_008_West_0
+  - first:
+      213: -2357008742227883146
+    second: NPC_008_West_1
+  - first:
+      213: 4585408809449898055
+    second: NPC_008_West_2
+  - first:
+      213: 1824361927927874384
+    second: NPC_008_West_3
+  - first:
+      213: -3638746747442540919
+    second: NPC_008_West_4
+  - first:
+      213: 8536623501957154944
+    second: NPC_008_West_5
+  - first:
+      213: -8410098727228912711
+    second: NPC_008_West_6
+  - first:
+      213: 1294566135069557153
+    second: NPC_008_West_7
+  - first:
+      213: -1360567336358490325
+    second: NPC_008_East_0
+  - first:
+      213: -7669232191128581669
+    second: NPC_008_East_1
+  - first:
+      213: -6923637996162232768
+    second: NPC_008_East_2
+  - first:
+      213: 8044629501821799080
+    second: NPC_008_East_3
+  - first:
+      213: 8188046756705222685
+    second: NPC_008_East_4
+  - first:
+      213: 7182382714885328420
+    second: NPC_008_East_5
+  - first:
+      213: 3121188228858922788
+    second: NPC_008_East_6
+  - first:
+      213: -3766182912088717184
+    second: NPC_008_East_7
+  - first:
+      213: 674309317872209867
+    second: NPC_008_North_0
+  - first:
+      213: -683152219973924567
+    second: NPC_008_North_1
+  - first:
+      213: 6802790444640388014
+    second: NPC_008_North_2
+  - first:
+      213: 4369844967464845425
+    second: NPC_008_North_3
+  - first:
+      213: -683016665157843756
+    second: NPC_008_North_4
+  - first:
+      213: 6550154488231314823
+    second: NPC_008_North_5
+  - first:
+      213: 4879717505871659405
+    second: NPC_008_North_6
+  - first:
+      213: -380994793943185653
+    second: NPC_008_North_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NPC_008_South_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 246
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca319dab94a540acac1a6447e9fbe745
+      internalID: 4048318746205767612
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_South_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 246
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d0fce33ef9465eb2f5cfc79210503e
+      internalID: -5073688350632162123
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_South_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 246
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b43d85fde54e4791deab3e443c4388
+      internalID: -4171423470848752153
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_South_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 246
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8cddca99e1404196414fc8298b199e
+      internalID: 3681552469018824462
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_South_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 246
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adb9e1fb6cf4894bce63b546be9bd70
+      internalID: 3785827587017756208
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_South_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 246
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29caf29a150d438b9015551743f7144e
+      internalID: 6446182577609720754
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_South_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 246
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ccd96f221d437e9d98262989c345cb
+      internalID: -2352463666403260554
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_South_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 246
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31826b2dc9dd40e2a82aae5bfd4b52d9
+      internalID: -3855010100058505056
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_West_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730d3f58ed4d4500b47c0ae49160274f
+      internalID: 2476538675203490975
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_West_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 164
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb36e3310a846aeadf971290882959d
+      internalID: -2357008742227883146
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_West_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 164
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacd50be865e469795033eea38ae4f8d
+      internalID: 4585408809449898055
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_West_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 164
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf72dbc4fa8487c89d7bf6bbcd33a4a
+      internalID: 1824361927927874384
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_West_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 164
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1823f879e0e46d2b7c7867f46e2003b
+      internalID: -3638746747442540919
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_West_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 164
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f31909c2084d3e81cc95234783ea59
+      internalID: 8536623501957154944
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_West_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 164
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff3b7e700ca4dc9a89a5ce818f128b1
+      internalID: -8410098727228912711
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_West_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 164
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5898deccaf74b659c3ca580a577c7bc
+      internalID: 1294566135069557153
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_East_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf320f5ceff4524b16deedfed96c1f6
+      internalID: -1360567336358490325
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_East_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 82
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb47ab7e23a422cacb78a6ed811526b
+      internalID: -7669232191128581669
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_East_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 82
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb6c8c8cc174dc987f6ebeb8b376efd
+      internalID: -6923637996162232768
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_East_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 82
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09924072ebd245b0ab541c964e286965
+      internalID: 8044629501821799080
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_East_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 82
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1ffc3228d8488f9979fdd6c696c578
+      internalID: 8188046756705222685
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_East_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 82
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4027a641fd44e49f66f456af370c2c
+      internalID: 7182382714885328420
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_East_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 82
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7f561875dd4d67a8da49b53b0c8001
+      internalID: 3121188228858922788
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_East_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 82
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef7941dbd7b40ee92f4b4373a5b38d9
+      internalID: -3766182912088717184
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_North_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ee832040664a969a94d50b000a6208
+      internalID: 674309317872209867
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_North_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae95f9e2ca74dde9ce5b58fd7894731
+      internalID: -683152219973924567
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_North_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8546f13ecd4b4aa8a9e79dac241878
+      internalID: 6802790444640388014
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_North_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0886903d14f548428a657024a95f5768
+      internalID: 4369844967464845425
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_North_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832198f261184484a1c84fb1b3f2eaf4
+      internalID: -683016665157843756
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_North_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86253d4594b406cb73a40e774422573
+      internalID: 6550154488231314823
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_North_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122158c0f6324926b952e5fcc9de0f4b
+      internalID: 4879717505871659405
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_008_North_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2641385246b94d73939850f04f8d2d03
+      internalID: -380994793943185653
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NPC_008_South_0: 4048318746205767612
+      NPC_008_South_1: -5073688350632162123
+      NPC_008_South_2: -4171423470848752153
+      NPC_008_South_3: 3681552469018824462
+      NPC_008_South_4: 3785827587017756208
+      NPC_008_South_5: 6446182577609720754
+      NPC_008_South_6: -2352463666403260554
+      NPC_008_South_7: -3855010100058505056
+      NPC_008_West_0: 2476538675203490975
+      NPC_008_West_1: -2357008742227883146
+      NPC_008_West_2: 4585408809449898055
+      NPC_008_West_3: 1824361927927874384
+      NPC_008_West_4: -3638746747442540919
+      NPC_008_West_5: 8536623501957154944
+      NPC_008_West_6: -8410098727228912711
+      NPC_008_West_7: 1294566135069557153
+      NPC_008_East_0: -1360567336358490325
+      NPC_008_East_1: -7669232191128581669
+      NPC_008_East_2: -6923637996162232768
+      NPC_008_East_3: 8044629501821799080
+      NPC_008_East_4: 8188046756705222685
+      NPC_008_East_5: 7182382714885328420
+      NPC_008_East_6: 3121188228858922788
+      NPC_008_East_7: -3766182912088717184
+      NPC_008_North_0: 674309317872209867
+      NPC_008_North_1: -683152219973924567
+      NPC_008_North_2: 6802790444640388014
+      NPC_008_North_3: 4369844967464845425
+      NPC_008_North_4: -683016665157843756
+      NPC_008_North_5: 6550154488231314823
+      NPC_008_North_6: 4879717505871659405
+      NPC_008_North_7: -380994793943185653
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:
