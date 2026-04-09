@@ -88,7 +88,7 @@ public class MMController : MonoBehaviour
 
         UpdateMusicText();
 
-        // FUTURE IMAGE TOGGLE (COMMENTED OUT)
+        // Future image toggle
         /*
         if (musicToggleImage != null)
         {
@@ -126,9 +126,8 @@ public class MMController : MonoBehaviour
             clickAudioSource.PlayOneShot(clickSfx);
     }
 
-    // ============================================
-    // 🔮 FUTURE IMAGE TOGGLE SYSTEM (NOT USED YET)
-    // ============================================
+ 
+    // future image toggle system
 
     /*
     [Header("Future - Image Toggle")]
