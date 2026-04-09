@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
+using UnityEngine.UI;
 
 public class MMController : MonoBehaviour
 {
@@ -16,15 +18,34 @@ public class MMController : MonoBehaviour
     public AudioSource clickAudioSource;
     public AudioClip clickSfx;
 
+    [Header("Settings - Text")]
+    public TMP_Text mainMenuMusicText;
+
+    [Header("Settings - Slider")]
+    public Slider masterVolumeSlider;
+
+    private bool musicOn = true;
+
     void Start()
     {
         ShowMainMenu();
 
+        // Setup music
         if (mainMenuMusic)
         {
             mainMenuMusic.loop = true;
             mainMenuMusic.Play();
+            mainMenuMusic.mute = !musicOn;
         }
+
+        // Setup slider
+        if (masterVolumeSlider != null)
+        {
+            masterVolumeSlider.value = AudioListener.volume;
+            masterVolumeSlider.onValueChanged.AddListener(SetMasterVolume);
+        }
+
+        UpdateMusicText();
     }
 
     public void OnPlayClicked()
@@ -37,7 +58,7 @@ public class MMController : MonoBehaviour
     {
         PlayClick();
 
-        if (titleStuffRoot) titleStuffRoot.SetActive(false);
+        if (titleStuffRoot) titleStuffRoot.SetActive(true);
         if (menuPanel) menuPanel.SetActive(false);
         if (settingsPanel) settingsPanel.SetActive(true);
     }
@@ -54,6 +75,34 @@ public class MMController : MonoBehaviour
         ShowMainMenu();
     }
 
+    public void ToggleMainMenuMusic()
+    {
+        PlayClick();
+
+        musicOn = !musicOn;
+
+        if (mainMenuMusic)
+        {
+            mainMenuMusic.mute = !musicOn;
+        }
+
+        UpdateMusicText();
+
+        // Future image toggle
+        /*
+        if (musicToggleImage != null)
+        {
+            musicToggleImage.sprite = musicOn ? musicOnSprite : musicOffSprite;
+        }
+        */
+    }
+
+    // ✅ MASTER VOLUME FUNCTION
+    public void SetMasterVolume(float volume)
+    {
+        AudioListener.volume = volume;
+    }
+
     private void ShowMainMenu()
     {
         if (titleStuffRoot) titleStuffRoot.SetActive(true);
@@ -61,9 +110,29 @@ public class MMController : MonoBehaviour
         if (settingsPanel) settingsPanel.SetActive(false);
     }
 
+    private void UpdateMusicText()
+    {
+        if (mainMenuMusicText)
+        {
+            mainMenuMusicText.text = musicOn
+                ? "Music: On"
+                : "Music: Off";
+        }
+    }
+
     private void PlayClick()
     {
         if (clickAudioSource && clickSfx)
             clickAudioSource.PlayOneShot(clickSfx);
     }
+
+ 
+    // future image toggle system
+
+    /*
+    [Header("Future - Image Toggle")]
+    public Image musicToggleImage;
+    public Sprite musicOnSprite;
+    public Sprite musicOffSprite;
+    */
 }
