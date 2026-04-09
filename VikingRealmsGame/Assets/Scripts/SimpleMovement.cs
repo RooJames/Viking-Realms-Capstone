@@ -9,11 +9,13 @@ public class SimpleMovment : MonoBehaviour
     // Last direction moved/aimed (used for shooting)
     public Vector2 AimDirection { get; private set; } = Vector2.right;
 
+    // NEW: Expose movement input for PlayerDash
+    public Vector2 MoveInput { get; private set; }
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
 
-        // auto-find animator if not assigned
         if (anim == null)
             anim = GetComponent<Animator>();
     }
@@ -25,18 +27,21 @@ public class SimpleMovment : MonoBehaviour
 
         Vector2 input = new Vector2(horizontal, vertical);
 
+        // NEW: expose input to other scripts
+        MoveInput = input;
+
         // Update aim direction ONLY when moving
         if (input.sqrMagnitude > 0.01f)
             AimDirection = input.normalized;
 
-        // Flip only horizontally (keep your working flip)
+        // Flip only horizontally
         if ((horizontal > 0 && transform.localScale.x < 0) ||
             (horizontal < 0 && transform.localScale.x > 0))
         {
             FlipHorizontal();
         }
 
-        // Animator params (must match controller)
+        // Animator params
         if (anim != null)
         {
             anim.SetFloat("MoveX", horizontal);
@@ -44,7 +49,7 @@ public class SimpleMovment : MonoBehaviour
             anim.SetBool("IsMoving", input.sqrMagnitude > 0.01f);
         }
 
-        // Movement (keep linearVelocity)
+        // Movement
         rb.linearVelocity = input * speed;
     }
 
