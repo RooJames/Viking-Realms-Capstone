@@ -76,7 +76,7 @@ public class PlayerCombat : MonoBehaviour
             meleeHitbox.SetActive(true);
 
         if (anim != null)
-            anim.SetTrigger("attack");
+            anim.SetTrigger("Melee");
     }
 
     void EndMelee()
