@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealthBarUI : MonoBehaviour
+public class UIHealthBar : MonoBehaviour
 {
     [SerializeField] private Health targetHealth;
     [SerializeField] private Image fillImage;
@@ -21,7 +21,7 @@ public class HealthBarUI : MonoBehaviour
             targetHealth.OnHealthChanged.RemoveListener(UpdateBar);
     }
 
-    public void UpdateBar(float current, float max)
+    private void UpdateBar(float current, float max)
     {
         fillImage.fillAmount = current / max;
     }
