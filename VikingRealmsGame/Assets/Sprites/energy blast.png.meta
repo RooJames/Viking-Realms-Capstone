@@ -1,0 +1,2002 @@
+fileFormatVersion: 2
+guid: de218b509907045469bb0e9f82a07cf5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4947428008799591845
+    second: energy blast_0
+  - first:
+      213: 3904956432957005984
+    second: energy blast_1
+  - first:
+      213: 4898146490820333912
+    second: energy blast_2
+  - first:
+      213: 7498984342948438336
+    second: energy blast_3
+  - first:
+      213: -1763732250117981632
+    second: energy blast_4
+  - first:
+      213: -8649075475032126250
+    second: energy blast_5
+  - first:
+      213: 4165508840843245453
+    second: energy blast_6
+  - first:
+      213: 4531331067035968629
+    second: energy blast_7
+  - first:
+      213: -1082432834100609882
+    second: energy blast_8
+  - first:
+      213: -7008058988728985651
+    second: energy blast_9
+  - first:
+      213: 5513353616948258809
+    second: energy blast_10
+  - first:
+      213: 886150864823117160
+    second: energy blast_11
+  - first:
+      213: 7680689594337950352
+    second: energy blast_12
+  - first:
+      213: 5475595080906261829
+    second: energy blast_13
+  - first:
+      213: -8296652432377067722
+    second: energy blast_14
+  - first:
+      213: -4253413644775805845
+    second: energy blast_15
+  - first:
+      213: 4962728640502449665
+    second: energy blast_16
+  - first:
+      213: -1171977870094468777
+    second: energy blast_17
+  - first:
+      213: 3138367495548353342
+    second: energy blast_18
+  - first:
+      213: -2707290318852953855
+    second: energy blast_19
+  - first:
+      213: 4622518750722680578
+    second: energy blast_20
+  - first:
+      213: 1153691268556970078
+    second: energy blast_21
+  - first:
+      213: 2951914743925441420
+    second: energy blast_22
+  - first:
+      213: 3974397167979664048
+    second: energy blast_23
+  - first:
+      213: 5807304454855032373
+    second: energy blast_24
+  - first:
+      213: -8955221727307593003
+    second: energy blast_25
+  - first:
+      213: 8944595087976073992
+    second: energy blast_26
+  - first:
+      213: -3534232014054983171
+    second: energy blast_27
+  - first:
+      213: -6821411555894633518
+    second: energy blast_28
+  - first:
+      213: 8837412342121638756
+    second: energy blast_29
+  - first:
+      213: -3149048629051376174
+    second: energy blast_30
+  - first:
+      213: -2178199007347822171
+    second: energy blast_31
+  - first:
+      213: -1072786958240929227
+    second: energy blast_32
+  - first:
+      213: -4678784929718080223
+    second: energy blast_33
+  - first:
+      213: 123964137642455123
+    second: energy blast_34
+  - first:
+      213: 6824292145508677005
+    second: energy blast_35
+  - first:
+      213: -340112277659608962
+    second: energy blast_36
+  - first:
+      213: -7859030325274405145
+    second: energy blast_37
+  - first:
+      213: 7974835343751006411
+    second: energy blast_38
+  - first:
+      213: -622036976746083955
+    second: energy blast_39
+  - first:
+      213: -6632656005449557235
+    second: energy blast_40
+  - first:
+      213: 1360119164416500211
+    second: energy blast_41
+  - first:
+      213: -2591564550591988910
+    second: energy blast_42
+  - first:
+      213: -6993255616766199639
+    second: energy blast_43
+  - first:
+      213: 4858414092668727403
+    second: energy blast_44
+  - first:
+      213: -6585785780442288763
+    second: energy blast_45
+  - first:
+      213: 8042637208714865859
+    second: energy blast_46
+  - first:
+      213: 7853162359470949172
+    second: energy blast_47
+  - first:
+      213: -4304600110368024757
+    second: energy blast_48
+  - first:
+      213: 7804383380224318057
+    second: energy blast_49
+  - first:
+      213: 9127081534512291582
+    second: energy blast_50
+  - first:
+      213: -2693193373112279504
+    second: energy blast_51
+  - first:
+      213: -584526047334436419
+    second: energy blast_52
+  - first:
+      213: -2847073685921249563
+    second: energy blast_53
+  - first:
+      213: -6752102595658548177
+    second: energy blast_54
+  - first:
+      213: -182808697599038049
+    second: energy blast_55
+  - first:
+      213: 4830051148087051158
+    second: energy blast_56
+  - first:
+      213: -8913499912925910555
+    second: energy blast_57
+  - first:
+      213: 7768784182007034464
+    second: energy blast_58
+  - first:
+      213: 3144406396284597085
+    second: energy blast_59
+  - first:
+      213: 6618632920762867139
+    second: energy blast_60
+  - first:
+      213: -4933352362889393433
+    second: energy blast_61
+  - first:
+      213: 6367477986358188573
+    second: energy blast_62
+  - first:
+      213: -2960628171131814335
+    second: energy blast_63
+  - first:
+      213: -937340160264977933
+    second: energy blast_64
+  - first:
+      213: -7962057603661696910
+    second: energy blast_65
+  - first:
+      213: 8287690839746025938
+    second: energy blast_66
+  - first:
+      213: -6455461556405451681
+    second: energy blast_67
+  - first:
+      213: 2899396109729267008
+    second: energy blast_68
+  - first:
+      213: -6573692924007492657
+    second: energy blast_69
+  - first:
+      213: -4166404023741896574
+    second: energy blast_70
+  - first:
+      213: -6631658271054817450
+    second: energy blast_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: energy blast_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 263
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52aea74074375bb0800000000000000
+      internalID: -4947428008799591845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_1
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 692
+        width: 814
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 24, z: 26, w: 30}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a067c9bf21313630800000000000000
+      internalID: 3904956432957005984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 922
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8511c2b2846b9f340800000000000000
+      internalID: 4898146490820333912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_3
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 932
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04168a1578eb11860800000000000000
+      internalID: 7498984342948438336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_4
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 934
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a31d8fcd6f587e0800000000000000
+      internalID: -1763732250117981632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_5
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 929
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcca232eaf48f780800000000000000
+      internalID: -8649075475032126250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_6
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 815
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87f53f883cdec930800000000000000
+      internalID: 4165508840843245453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_7
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 794
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574ee52f89582ee30800000000000000
+      internalID: 4531331067035968629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_8
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 768
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acb636821d6af0f0800000000000000
+      internalID: -1082432834100609882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_9
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 735
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc753d3ea7f5ebe90800000000000000
+      internalID: -7008058988728985651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_10
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 716
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7e05357ed538c40800000000000000
+      internalID: 5513353616948258809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_11
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 715
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865ef2b348d3c4c00800000000000000
+      internalID: 886150864823117160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_12
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 721
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a7d84fd7a479a60800000000000000
+      internalID: 7680689594337950352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_13
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 705
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5454b4317b83dfb40800000000000000
+      internalID: 5475595080906261829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_14
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 711
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637c84ff19e5cdc80800000000000000
+      internalID: -8296652432377067722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_15
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 718
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ca65c53d6d8f4c0800000000000000
+      internalID: -4253413644775805845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_16
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 631
+        width: 45
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1064ec5a7672fd440800000000000000
+      internalID: 4962728640502449665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_17
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 649
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7597668265c4cbfe0800000000000000
+      internalID: -1171977870094468777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_18
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 630
+        width: 56
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bbac20c98bd8b20800000000000000
+      internalID: 3138367495548353342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_19
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 641
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1096ae08cc5cd6ad0800000000000000
+      internalID: -2707290318852953855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_20
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 429
+        width: 774
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2076868005c762040800000000000000
+      internalID: 4622518750722680578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_21
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 632
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58dec2a81cb20010800000000000000
+      internalID: 1153691268556970078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_22
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 639
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c830ae6d1de47f820800000000000000
+      internalID: 2951914743925441420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_23
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 629
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b21fb1ca25e72730800000000000000
+      internalID: 3974397167979664048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_24
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 637
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e7d2e12a0b79050800000000000000
+      internalID: 5807304454855032373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_25
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 626
+        width: 45
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da88fa2949a8b380800000000000000
+      internalID: -8955221727307593003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_26
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 627
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b848e87d5912c70800000000000000
+      internalID: 8944595087976073992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_27
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 547
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9707855b2e3fec0800000000000000
+      internalID: -3534232014054983171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_28
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 550
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbd720d45a7551a0800000000000000
+      internalID: -6821411555894633518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_29
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 527
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b20d9d3bbc4aa70800000000000000
+      internalID: 8837412342121638756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_30
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 503
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd36fcc4f45c44d0800000000000000
+      internalID: -3149048629051376174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_31
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 504
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1bcec1b8b75c1e0800000000000000
+      internalID: -2178199007347822171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_32
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 475
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53aa06202f1bc11f0800000000000000
+      internalID: -1072786958240929227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_33
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 479
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12de3bb45ed911fb0800000000000000
+      internalID: -4678784929718080223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_34
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 437
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350f015f9b868b100800000000000000
+      internalID: 123964137642455123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_35
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 435
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d857888bc81c4be50800000000000000
+      internalID: 6824292145508677005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_36
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 431
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78995a7fada74bf0800000000000000
+      internalID: -340112277659608962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_37
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 439
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e61ffede8d1fe290800000000000000
+      internalID: -7859030325274405145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_38
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 439
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8428e1e7e4cae60800000000000000
+      internalID: 7974835343751006411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_39
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 428
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8944e35aa41e57f0800000000000000
+      internalID: -622036976746083955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_40
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 128
+        width: 826
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b51dd118214f3a0800000000000000
+      internalID: -6632656005449557235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_41
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 367
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f12f3f7c2d10e210800000000000000
+      internalID: 1360119164416500211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_42
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 374
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b387d95c9e80cd0800000000000000
+      internalID: -2591564550591988910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_43
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 371
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a835238117f2fe90800000000000000
+      internalID: -6993255616766199639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_44
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 357
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60754550ed8c6340800000000000000
+      internalID: 4858414092668727403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_45
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 359
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d2be5c9b69a94a0800000000000000
+      internalID: -6585785780442288763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_46
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 347
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cce9cafdef2d9f60800000000000000
+      internalID: 8042637208714865859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_47
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 352
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4330cbfde890cfc60800000000000000
+      internalID: 7853162359470949172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_48
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 354
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b471861a10df244c0800000000000000
+      internalID: -4304600110368024757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_49
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 347
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a9b3db55dbe4c60800000000000000
+      internalID: 7804383380224318057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_50
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 354
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efed1ac5c48e9ae70800000000000000
+      internalID: 9127081534512291582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_51
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 351
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ed43475eadf9ad0800000000000000
+      internalID: -2693193373112279504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_52
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 350
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1faaa28a853e7f0800000000000000
+      internalID: -584526047334436419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_53
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 274
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e64d4d21992d78d0800000000000000
+      internalID: -2847073685921249563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_54
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 272
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c77c2a676bb42a0800000000000000
+      internalID: -6752102595658548177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_55
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 258
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9de1c54578867df0800000000000000
+      internalID: -182808697599038049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_56
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 247
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69342b0bde9c70340800000000000000
+      internalID: 4830051148087051158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_57
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 244
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e963901e03ec4480800000000000000
+      internalID: -8913499912925910555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_58
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 243
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062f3318d0440db60800000000000000
+      internalID: 7768784182007034464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_59
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 243
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53720825fc23ab20800000000000000
+      internalID: 3144406396284597085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_60
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 247
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdd6cc039b1adb50800000000000000
+      internalID: 6618632920762867139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_61
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 215
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eac42af926398bb0800000000000000
+      internalID: -4933352362889393433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_62
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 215
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1adff30e73dd5850800000000000000
+      internalID: 6367477986358188573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_63
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 143
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e7cab4d5cb9e6d0800000000000000
+      internalID: -2960628171131814335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_64
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 145
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1c2b92716edf2f0800000000000000
+      internalID: -937340160264977933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_65
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 141
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270fb845bc6118190800000000000000
+      internalID: -7962057603661696910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_66
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 142
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9125f98eac30370800000000000000
+      internalID: 8287690839746025938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_67
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 149
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54434dbae79966a0800000000000000
+      internalID: -6455461556405451681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_68
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 142
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04dff8f6669bc3820800000000000000
+      internalID: 2899396109729267008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_69
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 148
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3d8025d1d85c4a0800000000000000
+      internalID: -6573692924007492657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_70
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 143
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2882b1e6d95fd26c0800000000000000
+      internalID: -4166404023741896574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy blast_71
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 135
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6571ff140fd97f3a0800000000000000
+      internalID: -6631658271054817450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8dac48d1c39ab4c4e93191fcc4e24ff3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      energy blast_0: -4947428008799591845
+      energy blast_1: 3904956432957005984
+      energy blast_10: 5513353616948258809
+      energy blast_11: 886150864823117160
+      energy blast_12: 7680689594337950352
+      energy blast_13: 5475595080906261829
+      energy blast_14: -8296652432377067722
+      energy blast_15: -4253413644775805845
+      energy blast_16: 4962728640502449665
+      energy blast_17: -1171977870094468777
+      energy blast_18: 3138367495548353342
+      energy blast_19: -2707290318852953855
+      energy blast_2: 4898146490820333912
+      energy blast_20: 4622518750722680578
+      energy blast_21: 1153691268556970078
+      energy blast_22: 2951914743925441420
+      energy blast_23: 3974397167979664048
+      energy blast_24: 5807304454855032373
+      energy blast_25: -8955221727307593003
+      energy blast_26: 8944595087976073992
+      energy blast_27: -3534232014054983171
+      energy blast_28: -6821411555894633518
+      energy blast_29: 8837412342121638756
+      energy blast_3: 7498984342948438336
+      energy blast_30: -3149048629051376174
+      energy blast_31: -2178199007347822171
+      energy blast_32: -1072786958240929227
+      energy blast_33: -4678784929718080223
+      energy blast_34: 123964137642455123
+      energy blast_35: 6824292145508677005
+      energy blast_36: -340112277659608962
+      energy blast_37: -7859030325274405145
+      energy blast_38: 7974835343751006411
+      energy blast_39: -622036976746083955
+      energy blast_4: -1763732250117981632
+      energy blast_40: -6632656005449557235
+      energy blast_41: 1360119164416500211
+      energy blast_42: -2591564550591988910
+      energy blast_43: -6993255616766199639
+      energy blast_44: 4858414092668727403
+      energy blast_45: -6585785780442288763
+      energy blast_46: 8042637208714865859
+      energy blast_47: 7853162359470949172
+      energy blast_48: -4304600110368024757
+      energy blast_49: 7804383380224318057
+      energy blast_5: -8649075475032126250
+      energy blast_50: 9127081534512291582
+      energy blast_51: -2693193373112279504
+      energy blast_52: -584526047334436419
+      energy blast_53: -2847073685921249563
+      energy blast_54: -6752102595658548177
+      energy blast_55: -182808697599038049
+      energy blast_56: 4830051148087051158
+      energy blast_57: -8913499912925910555
+      energy blast_58: 7768784182007034464
+      energy blast_59: 3144406396284597085
+      energy blast_6: 4165508840843245453
+      energy blast_60: 6618632920762867139
+      energy blast_61: -4933352362889393433
+      energy blast_62: 6367477986358188573
+      energy blast_63: -2960628171131814335
+      energy blast_64: -937340160264977933
+      energy blast_65: -7962057603661696910
+      energy blast_66: 8287690839746025938
+      energy blast_67: -6455461556405451681
+      energy blast_68: 2899396109729267008
+      energy blast_69: -6573692924007492657
+      energy blast_7: 4531331067035968629
+      energy blast_70: -4166404023741896574
+      energy blast_71: -6631658271054817450
+      energy blast_8: -1082432834100609882
+      energy blast_9: -7008058988728985651
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

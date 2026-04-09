@@ -1,9 +1,16 @@
 using UnityEngine;
-//generates a unique ID for GameObjects according to scene name and position for tracking persistent state across sessions
+
 public static class GlobalHelper
 {
     public static string GenerateUniqueID(GameObject obj)
     {
-        return $"{obj.scene.name}_{obj.transform.position.x}_{obj.transform.position.y}"; //Chest_3_4
+        // Use rounded position values to avoid floating point issues
+        int x = Mathf.RoundToInt(obj.transform.position.x * 100);
+        int y = Mathf.RoundToInt(obj.transform.position.y * 100);
+
+        // Use scene build index instead of name (more reliable)
+        int sceneIndex = obj.scene.buildIndex;
+
+        return $"{sceneIndex}_{obj.name}_{x}_{y}";
     }
 }
