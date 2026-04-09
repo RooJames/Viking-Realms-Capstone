@@ -4,8 +4,8 @@ using UnityEngine;
 // Attach this to the Player GameObject alongside a CircleCollider2D set to Is Trigger.
 public class InteractionDetector : MonoBehaviour
 {
-    [Tooltip("Key the player presses to interact (default: E)")]
-    public KeyCode interactKey = KeyCode.E;
+    [Tooltip("Key the player presses to interact (default: T)")]
+    public KeyCode interactKey = KeyCode.T;
 
     [Tooltip("Optional icon shown above the player when an interactable is in range")]
     public GameObject interactionIcon;
