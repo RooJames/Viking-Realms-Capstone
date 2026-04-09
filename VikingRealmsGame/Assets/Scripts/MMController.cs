@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.UI;
 
 public class MMController : MonoBehaviour
 {
@@ -17,8 +18,11 @@ public class MMController : MonoBehaviour
     public AudioSource clickAudioSource;
     public AudioClip clickSfx;
 
-    [Header("Settings")]
+    [Header("Settings - Text")]
     public TMP_Text mainMenuMusicText;
+
+    [Header("Settings - Slider")]
+    public Slider masterVolumeSlider;
 
     private bool musicOn = true;
 
@@ -26,11 +30,19 @@ public class MMController : MonoBehaviour
     {
         ShowMainMenu();
 
+        // Setup music
         if (mainMenuMusic)
         {
             mainMenuMusic.loop = true;
             mainMenuMusic.Play();
             mainMenuMusic.mute = !musicOn;
+        }
+
+        // Setup slider
+        if (masterVolumeSlider != null)
+        {
+            masterVolumeSlider.value = AudioListener.volume;
+            masterVolumeSlider.onValueChanged.AddListener(SetMasterVolume);
         }
 
         UpdateMusicText();
@@ -75,6 +87,20 @@ public class MMController : MonoBehaviour
         }
 
         UpdateMusicText();
+
+        // FUTURE IMAGE TOGGLE (COMMENTED OUT)
+        /*
+        if (musicToggleImage != null)
+        {
+            musicToggleImage.sprite = musicOn ? musicOnSprite : musicOffSprite;
+        }
+        */
+    }
+
+    // ✅ MASTER VOLUME FUNCTION
+    public void SetMasterVolume(float volume)
+    {
+        AudioListener.volume = volume;
     }
 
     private void ShowMainMenu()
@@ -89,8 +115,8 @@ public class MMController : MonoBehaviour
         if (mainMenuMusicText)
         {
             mainMenuMusicText.text = musicOn
-                ? "Music:On"
-                : "Music:Off";
+                ? "Music: On"
+                : "Music: Off";
         }
     }
 
@@ -99,4 +125,15 @@ public class MMController : MonoBehaviour
         if (clickAudioSource && clickSfx)
             clickAudioSource.PlayOneShot(clickSfx);
     }
+
+    // ============================================
+    // 🔮 FUTURE IMAGE TOGGLE SYSTEM (NOT USED YET)
+    // ============================================
+
+    /*
+    [Header("Future - Image Toggle")]
+    public Image musicToggleImage;
+    public Sprite musicOnSprite;
+    public Sprite musicOffSprite;
+    */
 }
