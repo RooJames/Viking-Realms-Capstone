@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class MMController : MonoBehaviour
 {
@@ -16,6 +17,11 @@ public class MMController : MonoBehaviour
     public AudioSource clickAudioSource;
     public AudioClip clickSfx;
 
+    [Header("Settings")]
+    public TMP_Text mainMenuMusicText;
+
+    private bool musicOn = true;
+
     void Start()
     {
         ShowMainMenu();
@@ -24,7 +30,10 @@ public class MMController : MonoBehaviour
         {
             mainMenuMusic.loop = true;
             mainMenuMusic.Play();
+            mainMenuMusic.mute = !musicOn;
         }
+
+        UpdateMusicText();
     }
 
     public void OnPlayClicked()
@@ -37,7 +46,7 @@ public class MMController : MonoBehaviour
     {
         PlayClick();
 
-        if (titleStuffRoot) titleStuffRoot.SetActive(false);
+        if (titleStuffRoot) titleStuffRoot.SetActive(true);
         if (menuPanel) menuPanel.SetActive(false);
         if (settingsPanel) settingsPanel.SetActive(true);
     }
@@ -54,11 +63,35 @@ public class MMController : MonoBehaviour
         ShowMainMenu();
     }
 
+    public void ToggleMainMenuMusic()
+    {
+        PlayClick();
+
+        musicOn = !musicOn;
+
+        if (mainMenuMusic)
+        {
+            mainMenuMusic.mute = !musicOn;
+        }
+
+        UpdateMusicText();
+    }
+
     private void ShowMainMenu()
     {
         if (titleStuffRoot) titleStuffRoot.SetActive(true);
         if (menuPanel) menuPanel.SetActive(true);
         if (settingsPanel) settingsPanel.SetActive(false);
+    }
+
+    private void UpdateMusicText()
+    {
+        if (mainMenuMusicText)
+        {
+            mainMenuMusicText.text = musicOn
+                ? "Music:On"
+                : "Music:Off";
+        }
     }
 
     private void PlayClick()
