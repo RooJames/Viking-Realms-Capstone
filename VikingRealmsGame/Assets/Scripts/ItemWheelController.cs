@@ -13,6 +13,7 @@ public class ItemWheelController : MonoBehaviour
 
     public static int weaponID;
     public TextMeshProUGUI itemText;
+    public TextMeshProUGUI quantityText;
 
     void Start()
     {
@@ -79,4 +80,34 @@ public class ItemWheelController : MonoBehaviour
                 break;
         }
     }
+
+     public void SetSelectedItemInfo(string newItemName, Sprite newIcon, int amount)
+    {
+        if (selectedItem != null)
+            selectedItem.sprite = newIcon != null ? newIcon : noImage;
+
+        if (itemText != null)
+            itemText.text = newItemName;
+
+        if (quantityText != null)
+        {
+            if (amount > 0)
+                quantityText.text = "x" + amount;
+            else
+                quantityText.text = "";
+        }
+    }
+
+    public void ClearSelectedItemInfo()
+    {
+        if (selectedItem != null)
+            selectedItem.sprite = noImage;
+
+        if (itemText != null)
+            itemText.text = "";
+
+        if (quantityText != null)
+            quantityText.text = "";
+    }
 }
+
