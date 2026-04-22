@@ -22,10 +22,10 @@ public class InteractionDetector : MonoBehaviour
         if (_inRange != null && Input.GetKeyDown(interactKey))
             _inRange.Interact();
        
-        if (Keyboard.current.fKey.wasPressedThisFrame)
-        {
-            interactableInRange?.Interact();
-        }
+        // if (Keyboard.current.fKey.wasPressedThisFrame)
+        // {
+        //     interactableInRange?.Interact();
+        // }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

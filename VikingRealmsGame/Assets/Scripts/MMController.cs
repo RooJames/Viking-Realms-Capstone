@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
 using UnityEngine.UI;
 
 public class MMController : MonoBehaviour
@@ -18,19 +17,26 @@ public class MMController : MonoBehaviour
     public AudioSource clickAudioSource;
     public AudioClip clickSfx;
 
-    [Header("Settings - Text")]
-    public TMP_Text mainMenuMusicText;
-
     [Header("Settings - Slider")]
     public Slider masterVolumeSlider;
 
+    [Header("Settings - Music Toggle")]
+    public Image musicToggleImage;
+    public Sprite musicOnSprite;
+    public Sprite musicOffSprite;
+
+    [Header("Settings - SFX Toggle")]
+    public Image sfxToggleImage;
+    public Sprite sfxOnSprite;
+    public Sprite sfxOffSprite;
+
     private bool musicOn = true;
+    private bool sfxOn = true;
 
     void Start()
     {
         ShowMainMenu();
 
-        // Setup music
         if (mainMenuMusic)
         {
             mainMenuMusic.loop = true;
@@ -38,14 +44,14 @@ public class MMController : MonoBehaviour
             mainMenuMusic.mute = !musicOn;
         }
 
-        // Setup slider
         if (masterVolumeSlider != null)
         {
             masterVolumeSlider.value = AudioListener.volume;
             masterVolumeSlider.onValueChanged.AddListener(SetMasterVolume);
         }
 
-        UpdateMusicText();
+        UpdateMusicUI();
+        UpdateSFXUI();
     }
 
     public void OnPlayClicked()
@@ -86,18 +92,18 @@ public class MMController : MonoBehaviour
             mainMenuMusic.mute = !musicOn;
         }
 
-        UpdateMusicText();
-
-        // Future image toggle
-        /*
-        if (musicToggleImage != null)
-        {
-            musicToggleImage.sprite = musicOn ? musicOnSprite : musicOffSprite;
-        }
-        */
+        UpdateMusicUI();
     }
 
-    // ✅ MASTER VOLUME FUNCTION
+    public void ToggleSFX()
+    {
+        PlayClick();
+
+        sfxOn = !sfxOn;
+
+        UpdateSFXUI();
+    }
+
     public void SetMasterVolume(float volume)
     {
         AudioListener.volume = volume;
@@ -110,29 +116,27 @@ public class MMController : MonoBehaviour
         if (settingsPanel) settingsPanel.SetActive(false);
     }
 
-    private void UpdateMusicText()
+    private void UpdateMusicUI()
     {
-        if (mainMenuMusicText)
+        if (musicToggleImage != null)
         {
-            mainMenuMusicText.text = musicOn
-                ? "Music: On"
-                : "Music: Off";
+            musicToggleImage.sprite = musicOn ? musicOnSprite : musicOffSprite;
+        }
+    }
+
+    private void UpdateSFXUI()
+    {
+        if (sfxToggleImage != null)
+        {
+            sfxToggleImage.sprite = sfxOn ? sfxOnSprite : sfxOffSprite;
         }
     }
 
     private void PlayClick()
     {
-        if (clickAudioSource && clickSfx)
+        if (sfxOn && clickAudioSource && clickSfx)
+        {
             clickAudioSource.PlayOneShot(clickSfx);
+        }
     }
-
- 
-    // future image toggle system
-
-    /*
-    [Header("Future - Image Toggle")]
-    public Image musicToggleImage;
-    public Sprite musicOnSprite;
-    public Sprite musicOffSprite;
-    */
 }
