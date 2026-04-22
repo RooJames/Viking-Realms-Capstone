@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9372549, g: 0.627451, b: 0.12941177, a: 1}
+    m_HighlightedColor: {r: 0.8862745, g: 0.43137255, b: 0.35686275, a: 1}
     m_PressedColor: {r: 1, g: 0.8784314, b: 0.61960787, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -664,6 +664,7 @@ MonoBehaviour:
   mainMenuMusic: {fileID: 643871162}
   clickAudioSource: {fileID: 643871163}
   clickSfx: {fileID: 8300000, guid: 9e528033ac797f94aa561c9e8ce0394d, type: 3}
+  scrollSfx: {fileID: 8300000, guid: 5dd61a4b7677a8e46918fc49bc8779e1, type: 3}
   masterVolumeSlider: {fileID: 2145740812}
   musicToggleImage: {fileID: 986518349}
   musicOnSprite: {fileID: -3136405940160137203, guid: c58828c890a401a4fb052c9810effe48, type: 3}
@@ -1690,7 +1691,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9339623, g: 0.62698066, b: 0.12775902, a: 1}
+    m_HighlightedColor: {r: 0.8862745, g: 0.43137255, b: 0.35686275, a: 1}
     m_PressedColor: {r: 1, g: 0.8784314, b: 0.61960787, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -3639,7 +3640,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9372549, g: 0.627451, b: 0.12941177, a: 1}
+    m_HighlightedColor: {r: 0.8862745, g: 0.43137255, b: 0.35686275, a: 1}
     m_PressedColor: {r: 1, g: 0.87513834, b: 0.6179246, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}

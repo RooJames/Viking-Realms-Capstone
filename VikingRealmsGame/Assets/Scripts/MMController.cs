@@ -16,6 +16,7 @@ public class MMController : MonoBehaviour
     public AudioSource mainMenuMusic;
     public AudioSource clickAudioSource;
     public AudioClip clickSfx;
+    public AudioClip scrollSfx; // renamed
 
     [Header("Settings - Slider")]
     public Slider masterVolumeSlider;
@@ -62,7 +63,7 @@ public class MMController : MonoBehaviour
 
     public void OnSettingsClicked()
     {
-        PlayClick();
+        PlayScrollSFX();
 
         if (titleStuffRoot) titleStuffRoot.SetActive(true);
         if (menuPanel) menuPanel.SetActive(false);
@@ -77,7 +78,7 @@ public class MMController : MonoBehaviour
 
     public void OnBackFromSettings()
     {
-        PlayClick();
+        PlayScrollSFX();
         ShowMainMenu();
     }
 
@@ -137,6 +138,14 @@ public class MMController : MonoBehaviour
         if (sfxOn && clickAudioSource && clickSfx)
         {
             clickAudioSource.PlayOneShot(clickSfx);
+        }
+    }
+
+    private void PlayScrollSFX()
+    {
+        if (sfxOn && clickAudioSource && scrollSfx)
+        {
+            clickAudioSource.PlayOneShot(scrollSfx);
         }
     }
 }
