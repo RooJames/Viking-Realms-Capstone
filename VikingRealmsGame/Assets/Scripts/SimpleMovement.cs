@@ -42,11 +42,12 @@ public class SimpleMovment : MonoBehaviour
         }
 
         // Animator params
+        bool moving = input.sqrMagnitude > 0.01f;
         if (anim != null)
         {
             anim.SetFloat("MoveX", horizontal);
             anim.SetFloat("MoveY", vertical);
-            anim.SetBool("IsMoving", input.sqrMagnitude > 0.01f);
+            anim.SetBool("IsMoving", moving);
         }
 
         // Movement
