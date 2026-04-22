@@ -41,6 +41,7 @@ public class NPC : MonoBehaviour, IInteractable
 
     public bool CanInteract()
     {
+        if (DialogueUI.Instance == null) return true;
         return !DialogueUI.Instance.IsOpen;
     }
 

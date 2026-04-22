@@ -9,6 +9,9 @@ public class QuestManager : MonoBehaviour
     [Header("Quest Registry — drag every Quest asset here so save/load can find them")]
     public List<Quest> questRegistry = new List<Quest>();
 
+    [Header("Quests that start automatically when the game loads")]
+    public List<Quest> startingQuests = new List<Quest>();
+
     // ── Runtime state ────────────────────────────────────────────────────────
     private readonly List<Quest>  _activeQuests      = new List<Quest>();
     private readonly List<string> _completedQuestIDs = new List<string>();
@@ -31,6 +34,12 @@ public class QuestManager : MonoBehaviour
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
         Instance = this;
         DontDestroyOnLoad(gameObject);
+    }
+
+    void Start()
+    {
+        foreach (Quest q in startingQuests)
+            AcceptQuest(q);
     }
 
     // ── Query ────────────────────────────────────────────────────────────────

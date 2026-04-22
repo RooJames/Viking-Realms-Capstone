@@ -10,8 +10,8 @@ public class QuestGiver : MonoBehaviour
     [Tooltip("Quest this NPC starts. Leave empty if this NPC only turns in.")]
     public Quest questToOffer;
 
-    [Tooltip("Quest this NPC completes. Can be the same as questToOffer.")]
-    public Quest questToComplete;
+    [Tooltip("Quests this NPC can turn in. Add both the talk quest and kill quest here.")]
+    public Quest[] questsToComplete;
 
     [Header("Quest Context (optional)")]
     [Tooltip("A quest this NPC is involved in but doesn't give or complete — e.g. a visit target.")]
@@ -38,13 +38,19 @@ public class QuestGiver : MonoBehaviour
         string npcName = _npc.npcName;
 
         // ── 1. Turn-in ────────────────────────────────────────────────────────
-        if (questToComplete != null
-            && QuestManager.Instance.IsActive(questToComplete)
-            && QuestManager.Instance.AreAllObjectivesComplete(questToComplete))
+        if (questsToComplete != null)
         {
-            QuestManager.Instance.TurnInQuest(questToComplete);
-            ShowLines(npcName, questToComplete.completionLines, "Quest complete!");
-            return true;
+            foreach (Quest q in questsToComplete)
+            {
+                if (q != null
+                    && QuestManager.Instance.IsActive(q)
+                    && QuestManager.Instance.AreAllObjectivesComplete(q))
+                {
+                    QuestManager.Instance.TurnInQuest(q);
+                    ShowLines(npcName, q.completionLines, "Quest complete!");
+                    return true;
+                }
+            }
         }
 
         // ── 2. Offer ──────────────────────────────────────────────────────────
