@@ -18,7 +18,9 @@ public class InteractionManager : MonoBehaviour
     {
         if (isPaused) return; // Don't process interactions when paused
 
-        nearbyInteractables.RemoveAll(x => x == null || (x as MonoBehaviour) == null || !x.CanInteract());
+        // Only remove destroyed objects — don't remove temporarily-unavailable ones
+        // (e.g. NPCs whose CanInteract() returns false while dialogue is open)
+        nearbyInteractables.RemoveAll(x => x == null || (x as MonoBehaviour) == null);
         
         // Clamp index after cleanup in case items were removed
         if (nearbyInteractables.Count > 0)

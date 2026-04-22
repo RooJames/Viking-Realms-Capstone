@@ -50,6 +50,15 @@ public class SaveController : MonoBehaviour
             }
         }
 
+        // Save quest state
+        if (QuestManager.Instance != null)
+        {
+            QuestSaveBlock qb = QuestManager.Instance.GetSaveData();
+            saveData.activeQuestIDs    = qb.activeQuestIDs;
+            saveData.completedQuestIDs = qb.completedQuestIDs;
+            saveData.questProgress     = qb.questProgress;
+        }
+
         File.WriteAllText(saveLocation, JsonUtility.ToJson(saveData));
         Debug.Log("Game saved!");
     }
@@ -104,6 +113,17 @@ public class SaveController : MonoBehaviour
                 {
                     statue.SetUsed(true);
                 }
+            }
+
+            // Restore quest state
+            if (QuestManager.Instance != null)
+            {
+                QuestManager.Instance.LoadSaveData(new QuestSaveBlock
+                {
+                    activeQuestIDs    = saveData.activeQuestIDs    ?? new List<string>(),
+                    completedQuestIDs = saveData.completedQuestIDs ?? new List<string>(),
+                    questProgress     = saveData.questProgress     ?? new List<QuestProgressEntry>()
+                });
             }
 
             Debug.Log("Game loaded!");

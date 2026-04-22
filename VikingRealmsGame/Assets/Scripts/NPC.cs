@@ -51,6 +51,14 @@ public class NPC : MonoBehaviour, IInteractable
         // Face the player when spoken to
         FacePlayer();
 
+        // Always track talking to this NPC (handles TalkToNPC quest objectives)
+        QuestManager.Instance?.TrackTalk(npcName);
+
+        // Let the QuestGiver handle dialogue if one is attached
+        QuestGiver questGiver = GetComponent<QuestGiver>();
+        if (questGiver != null && questGiver.TryHandleInteraction())
+            return;
+
         DialogueUI.Instance.ShowDialogue(npcName, dialogueLines);
     }
 

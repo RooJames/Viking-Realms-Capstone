@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7525887422851579048}
   - component: {fileID: 2940411721946437104}
   - component: {fileID: 3892615853380772778}
+  - component: {fileID: 5594078413249685023}
   m_Layer: 0
   m_Name: Orc
   m_TagString: Enemy
@@ -201,3 +202,16 @@ MonoBehaviour:
   damage: 2
   attackCooldown: 1.5
   player: {fileID: 0}
+--- !u!114 &5594078413249685023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8959640272608035387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0fc92c64bd3c2841bf118917684f92d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::QuestEntityTag
+  entityTag: Orc

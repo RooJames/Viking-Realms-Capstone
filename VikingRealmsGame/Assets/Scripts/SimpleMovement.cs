@@ -22,6 +22,14 @@ public class SimpleMovment : MonoBehaviour
 
     void FixedUpdate()
     {
+        // Freeze movement while dialogue is open
+        if (DialogueUI.Instance != null && DialogueUI.Instance.IsOpen)
+        {
+            rb.linearVelocity = Vector2.zero;
+            if (anim != null) anim.SetBool("IsMoving", false);
+            return;
+        }
+
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
