@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -7354671056581341706}
   - component: {fileID: 4535799929057330325}
   - component: {fileID: 7012336000647907760}
+  - component: {fileID: 4483967302138574912}
   m_Layer: 0
   m_Name: NPC_004
   m_TagString: NPC
@@ -240,3 +241,17 @@ MonoBehaviour:
   - {fileID: -2293118331838509282, guid: 9c89cdd570cf463a8d50b9d776a46e27, type: 3}
   - {fileID: 3453256882919326565, guid: 9c89cdd570cf463a8d50b9d776a46e27, type: 3}
   animator: {fileID: 4535799929057330325}
+--- !u!114 &4483967302138574912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: -5401236895762725216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5775a021a52d42849897af25fe15a0d1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::QuestGiver
+  questToOffer: {fileID: 11400000, guid: b2c3d4e5f6789012abcdef1234567890, type: 2}
+  questToComplete: {fileID: 11400000, guid: b2c3d4e5f6789012abcdef1234567890, type: 2}
