@@ -72,17 +72,51 @@ public class PlayerCombat : MonoBehaviour
         atkTimer = 0f;
         atkCooldownTimer = 0f;
 
-        if (meleeHitbox != null)
-            meleeHitbox.SetActive(true);
+        // Determine attack direction from last movement
+        Vector2 dir = (move != null) ? move.AimDirection : Vector2.right;
 
+        // Snap to the closest cardinal/horizontal direction
+        // (no left — right is mirrored via player scale flip)
+        float ax = Mathf.Abs(dir.x);
+        float ay = Mathf.Abs(dir.y);
+
+        Vector2 snapDir;
+        if (ay > ax)                              // up or down
+            snapDir = (dir.y >= 0) ? Vector2.up : Vector2.down;
+        else                                      // left or right
+            snapDir = (dir.x >= 0) ? Vector2.right : Vector2.left;
+
+        // Tell the animator which direction so the Blend Tree picks the right clip
         if (anim != null)
+        {
+            anim.SetFloat("LastMoveX", snapDir.x);
+            anim.SetFloat("LastMoveY", snapDir.y);
+            anim.SetBool("isAttacking", true);
             anim.SetTrigger("Melee");
+        }
+
+        // Reposition hitbox to match attack direction
+        if (meleeHitbox != null)
+        {
+            Transform hb = meleeHitbox.transform;
+            if (snapDir == Vector2.up)
+                hb.localPosition = new Vector3(0f, 0.3f, 0f);
+            else if (snapDir == Vector2.down)
+                hb.localPosition = new Vector3(0f, -0.3f, 0f);
+            else  // right or left (sprite flip handles left)
+                hb.localPosition = new Vector3(0.3f, 0f, 0f);
+
+            meleeHitbox.SetActive(true);
+        }
     }
 
     void EndMelee()
     {
         isAttacking = false;
         atkTimer = 0f;
+
+        if (anim != null)
+            anim.SetBool("isAttacking", false);
 
         if (meleeHitbox != null)
             meleeHitbox.SetActive(false);
