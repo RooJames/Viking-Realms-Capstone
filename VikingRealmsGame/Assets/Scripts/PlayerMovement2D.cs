@@ -6,6 +6,9 @@ public class PlayerMovement2D : MonoBehaviour
 
     void Update()
     {
+        // Freeze movement while dialogue is open
+        if (DialogueUI.Instance != null && DialogueUI.Instance.IsOpen) return;
+
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
 

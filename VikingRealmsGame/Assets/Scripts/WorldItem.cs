@@ -44,6 +44,10 @@ public class WorldItem : MonoBehaviour, IInteractable
                     {
                         saveController.RegisterCollectedItem(worldItemID);
                     }
+
+                    // Notify quest system of item collection
+                    QuestManager.Instance?.TrackCollect(worldItemID);
+
                     Destroy(gameObject);
                 }
             }

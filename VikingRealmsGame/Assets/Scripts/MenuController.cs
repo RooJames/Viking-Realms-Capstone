@@ -6,11 +6,13 @@ public class MenuController : MonoBehaviour
 {
     public GameObject menuCanvas;
     private InteractionManager interactionManager;
+    private ItemWheelController itemWheelController;
 
     void Start()
     {
         menuCanvas.SetActive(false);
         interactionManager = FindObjectOfType<InteractionManager>();
+        itemWheelController = FindAnyObjectByType<ItemWheelController>();
     }
 
     void Update()
@@ -20,11 +22,28 @@ public class MenuController : MonoBehaviour
             bool isActive = !menuCanvas.activeSelf;
             menuCanvas.SetActive(isActive);
 
-            if (interactionManager != null)
+            // Close the weapon wheel whenever the inventory opens or closes
+            if (itemWheelController != null)
             {
-                interactionManager.SetPaused(isActive);
+                itemWheelController.CloseWheel();
+                itemWheelController.SetSelectedItemVisible(!isActive);
             }
+
+            if (interactionManager != null)
+                interactionManager.SetPaused(isActive);
         }
+    }
+
+    /// <summary>
+    /// Closes the inventory (called externally, e.g. when weapon wheel opens).
+    /// </summary>
+    public void CloseInventory()
+    {
+        menuCanvas.SetActive(false);
+        if (interactionManager != null)
+            interactionManager.SetPaused(false);
+        if (itemWheelController != null)
+            itemWheelController.SetSelectedItemVisible(true);
     }
 
     public void QuitToMainMenu()
