@@ -3,18 +3,19 @@ using UnityEngine;
 public class SimpleMovment : MonoBehaviour
 {
     public float speed = 5f;
+    public float exhaustedSpeed = 2f;
     public Rigidbody2D rb;
     public Animator anim;
 
-    // Last direction moved/aimed (used for shooting)
-    public Vector2 AimDirection { get; private set; } = Vector2.right;
+    private PlayerStats stats;
 
-    // NEW: Expose movement input for PlayerDash
+    public Vector2 AimDirection { get; private set; } = Vector2.right;
     public Vector2 MoveInput { get; private set; }
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        stats = GetComponent<PlayerStats>();
 
         if (anim == null)
             anim = GetComponent<Animator>();
@@ -22,44 +23,31 @@ public class SimpleMovment : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Freeze movement while dialogue is open
-        if (DialogueUI.Instance != null && DialogueUI.Instance.IsOpen)
-        {
-            rb.linearVelocity = Vector2.zero;
-            if (anim != null) anim.SetBool("IsMoving", false);
-            return;
-        }
-
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
         Vector2 input = new Vector2(horizontal, vertical);
-
-        // NEW: expose input to other scripts
         MoveInput = input;
 
-        // Update aim direction ONLY when moving
         if (input.sqrMagnitude > 0.01f)
             AimDirection = input.normalized;
 
-        // Flip only horizontally
         if ((horizontal > 0 && transform.localScale.x < 0) ||
             (horizontal < 0 && transform.localScale.x > 0))
         {
             FlipHorizontal();
         }
 
-        // Animator params
-        bool moving = input.sqrMagnitude > 0.01f;
         if (anim != null)
         {
             anim.SetFloat("MoveX", horizontal);
             anim.SetFloat("MoveY", vertical);
-            anim.SetBool("IsMoving", moving);
+            anim.SetBool("IsMoving", input.sqrMagnitude > 0.01f);
         }
 
-        // Movement
-        rb.linearVelocity = input * speed;
+        float currentSpeed = stats != null && stats.isExhausted ? exhaustedSpeed : speed;
+
+        rb.linearVelocity = input.normalized * currentSpeed;
     }
 
     void FlipHorizontal()

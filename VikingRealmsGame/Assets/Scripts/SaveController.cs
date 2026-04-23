@@ -8,6 +8,7 @@ public class SaveController : MonoBehaviour
     private InventoryController inventoryController;
     private List<string> collectedItemIDs = new List<string>();
 
+
     void Start()
     {
         saveLocation = Path.Combine(Application.persistentDataPath, "saveData.json");
@@ -30,6 +31,7 @@ public class SaveController : MonoBehaviour
         saveData.inventorySaveData = inventoryController.GetInventoryItems() ?? new List<InventorySaveData>();
         saveData.collectedItemIDs = new List<string>(collectedItemIDs);
 
+
         // Save all opened chests
         Chest[] chests = FindObjectsByType<Chest>(FindObjectsSortMode.None);
         foreach (Chest chest in chests)
@@ -50,15 +52,6 @@ public class SaveController : MonoBehaviour
             }
         }
 
-        // Save quest state
-        if (QuestManager.Instance != null)
-        {
-            QuestSaveBlock qb = QuestManager.Instance.GetSaveData();
-            saveData.activeQuestIDs    = qb.activeQuestIDs;
-            saveData.completedQuestIDs = qb.completedQuestIDs;
-            saveData.questProgress     = qb.questProgress;
-        }
-
         File.WriteAllText(saveLocation, JsonUtility.ToJson(saveData));
         Debug.Log("Game saved!");
     }
@@ -68,6 +61,7 @@ public class SaveController : MonoBehaviour
         if (File.Exists(saveLocation))
         {
             SaveData saveData = JsonUtility.FromJson<SaveData>(File.ReadAllText(saveLocation));
+
 
             // Restore player position
             GameObject.FindGameObjectWithTag("Player").transform.position = saveData.playerPosition;
@@ -113,17 +107,6 @@ public class SaveController : MonoBehaviour
                 {
                     statue.SetUsed(true);
                 }
-            }
-
-            // Restore quest state
-            if (QuestManager.Instance != null)
-            {
-                QuestManager.Instance.LoadSaveData(new QuestSaveBlock
-                {
-                    activeQuestIDs    = saveData.activeQuestIDs    ?? new List<string>(),
-                    completedQuestIDs = saveData.completedQuestIDs ?? new List<string>(),
-                    questProgress     = saveData.questProgress     ?? new List<QuestProgressEntry>()
-                });
             }
 
             Debug.Log("Game loaded!");
