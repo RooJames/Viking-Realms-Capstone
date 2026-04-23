@@ -17,7 +17,7 @@ MonoBehaviour:
   description: The Guard has asked you to visit the Healer in the village.
   offerLines:
   - Traveler, I need you to deliver a message to the Healer in the village.
-  - Find her and speak with her. Then return to me.
+  - Find the healer and speak with her. Then return to me.
   activeLines:
   - Have you spoken with the Healer yet? She is somewhere in the village.
   completionLines:
@@ -28,4 +28,6 @@ MonoBehaviour:
     targetID: Healer
     description: Speak with the Healer
     requiredCount: 1
-  rewards: []
+  rewards:
+  - itemPrefab: {fileID: 8776828125642484983, guid: 9bc5ed9f583ed8347822000f6ce1448e, type: 3}
+    quantity: 1

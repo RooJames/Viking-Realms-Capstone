@@ -110,6 +110,13 @@ public class InteractionManager : MonoBehaviour
             return;
         }
 
+        // Hide interact prompt while dialogue is open
+        if (DialogueUI.Instance != null && DialogueUI.Instance.IsOpen)
+        {
+            HideUI();
+            return;
+        }
+
         IInteractable current = nearbyInteractables[currentIndex];
 
         if (current is WorldItem)
