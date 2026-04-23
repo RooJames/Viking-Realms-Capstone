@@ -14,6 +14,10 @@ public class OrcAI : MonoBehaviour
     public int damage = 2;
     public float attackCooldown = 1.5f;
 
+    [Header("Boundary")]
+    [Tooltip("Assign the BoxCollider2D for the map region this orc should stay inside.")]
+    public Collider2D boundary;
+
     [Header("References")]
     public Transform player;
 
@@ -88,11 +92,26 @@ public class OrcAI : MonoBehaviour
         if (patrolTimer <= 0f)
             PickNewPatrol();
 
+        // If the next step would leave the boundary, pick a new inward direction
+        if (boundary != null)
+        {
+            Vector2 nextPos = rb.position + patrolDirection * moveSpeed * Time.fixedDeltaTime;
+            if (!boundary.bounds.Contains(nextPos))
+                PickNewPatrol();
+        }
+
         return patrolDirection * moveSpeed;
     }
 
     Vector2 ChaseMove()
     {
+        // Don't chase the player outside our boundary
+        if (boundary != null && !boundary.bounds.Contains(player.position))
+        {
+            currentState = State.Patrol;
+            return PatrolMove();
+        }
+
         Vector2 toPlayer = (Vector2)player.position - rb.position;
         float dist = toPlayer.magnitude;
 

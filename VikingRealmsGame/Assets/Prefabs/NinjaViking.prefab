@@ -19,9 +19,10 @@ GameObject:
   - component: {fileID: 2671023194656200388}
   - component: {fileID: 1150796346925833744}
   - component: {fileID: 423383317640329068}
+  - component: {fileID: 5921847302194856730}
   m_Layer: 0
   m_Name: NinjaViking
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -320,3 +321,17 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0013163885, y: -0.012506863}
   m_Size: {x: 0.11480753, y: 0.32939717}
   m_Direction: 0
+--- !u!114 &5921847302194856730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4360622789383174266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98cdf2b30c94b404db768e1027c619c3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::InteractionDetector
+  interactKey: 102
+  interactionIcon: {fileID: 0}

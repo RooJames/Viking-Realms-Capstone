@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MMController : MonoBehaviour
 {
@@ -15,6 +16,23 @@ public class MMController : MonoBehaviour
     public AudioSource mainMenuMusic;
     public AudioSource clickAudioSource;
     public AudioClip clickSfx;
+    public AudioClip scrollSfx; // renamed
+
+    [Header("Settings - Slider")]
+    public Slider masterVolumeSlider;
+
+    [Header("Settings - Music Toggle")]
+    public Image musicToggleImage;
+    public Sprite musicOnSprite;
+    public Sprite musicOffSprite;
+
+    [Header("Settings - SFX Toggle")]
+    public Image sfxToggleImage;
+    public Sprite sfxOnSprite;
+    public Sprite sfxOffSprite;
+
+    private bool musicOn = true;
+    private bool sfxOn = true;
 
     void Start()
     {
@@ -24,7 +42,17 @@ public class MMController : MonoBehaviour
         {
             mainMenuMusic.loop = true;
             mainMenuMusic.Play();
+            mainMenuMusic.mute = !musicOn;
         }
+
+        if (masterVolumeSlider != null)
+        {
+            masterVolumeSlider.value = AudioListener.volume;
+            masterVolumeSlider.onValueChanged.AddListener(SetMasterVolume);
+        }
+
+        UpdateMusicUI();
+        UpdateSFXUI();
     }
 
     public void OnPlayClicked()
@@ -35,9 +63,9 @@ public class MMController : MonoBehaviour
 
     public void OnSettingsClicked()
     {
-        PlayClick();
+        PlayScrollSFX();
 
-        if (titleStuffRoot) titleStuffRoot.SetActive(false);
+        if (titleStuffRoot) titleStuffRoot.SetActive(true);
         if (menuPanel) menuPanel.SetActive(false);
         if (settingsPanel) settingsPanel.SetActive(true);
     }
@@ -50,8 +78,36 @@ public class MMController : MonoBehaviour
 
     public void OnBackFromSettings()
     {
-        PlayClick();
+        PlayScrollSFX();
         ShowMainMenu();
+    }
+
+    public void ToggleMainMenuMusic()
+    {
+        PlayClick();
+
+        musicOn = !musicOn;
+
+        if (mainMenuMusic)
+        {
+            mainMenuMusic.mute = !musicOn;
+        }
+
+        UpdateMusicUI();
+    }
+
+    public void ToggleSFX()
+    {
+        PlayClick();
+
+        sfxOn = !sfxOn;
+
+        UpdateSFXUI();
+    }
+
+    public void SetMasterVolume(float volume)
+    {
+        AudioListener.volume = volume;
     }
 
     private void ShowMainMenu()
@@ -61,9 +117,35 @@ public class MMController : MonoBehaviour
         if (settingsPanel) settingsPanel.SetActive(false);
     }
 
+    private void UpdateMusicUI()
+    {
+        if (musicToggleImage != null)
+        {
+            musicToggleImage.sprite = musicOn ? musicOnSprite : musicOffSprite;
+        }
+    }
+
+    private void UpdateSFXUI()
+    {
+        if (sfxToggleImage != null)
+        {
+            sfxToggleImage.sprite = sfxOn ? sfxOnSprite : sfxOffSprite;
+        }
+    }
+
     private void PlayClick()
     {
-        if (clickAudioSource && clickSfx)
+        if (sfxOn && clickAudioSource && clickSfx)
+        {
             clickAudioSource.PlayOneShot(clickSfx);
+        }
+    }
+
+    private void PlayScrollSFX()
+    {
+        if (sfxOn && clickAudioSource && scrollSfx)
+        {
+            clickAudioSource.PlayOneShot(scrollSfx);
+        }
     }
 }

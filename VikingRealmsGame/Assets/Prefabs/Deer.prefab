@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7524162985112894937}
   - component: {fileID: 1749037445071711458}
   - component: {fileID: 3247962799664402875}
+  - component: {fileID: 645660000948602001}
   m_Layer: 0
   m_Name: Deer
   m_TagString: Enemy
@@ -105,7 +106,7 @@ Animator:
   m_GameObject: {fileID: 2657441834358223671}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3b9fa934241d4868b2dc31313b8e9b69, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6d63e63b0404440ebe838b980a04f774, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -169,7 +170,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -207,3 +208,27 @@ MonoBehaviour:
   attackCooldown: 1.5
   deathAnimDuration: 1.5
   meatPrefab: {fileID: 8324733384733589738, guid: 809473e539a00064c920d9680fe1913f, type: 3}
+--- !u!114 &645660000948602001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2657441834358223671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f35f4dd3a3fbb6643a41e780da771a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  maxHealth: 100
+  destroyOnDeath: 1
+  invincibilityDuration: 0.5
+  OnHealthChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []

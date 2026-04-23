@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 3650382234261363238}
   - component: {fileID: 5599517659337916179}
   - component: {fileID: 3610477594626164977}
+  - component: {fileID: 4801923740184627301}
   m_Layer: 0
   m_Name: MCGUY
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -467,3 +468,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Weapon
   damage: 1
   weaponType: 1
+--- !u!114 &4801923740184627301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861385976238100449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98cdf2b30c94b404db768e1027c619c3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::InteractionDetector
+  interactKey: 102
+  interactionIcon: {fileID: 0}

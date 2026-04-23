@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5902714228585835643}
   - component: {fileID: 740055423104575548}
   - component: {fileID: 354384991366971607}
+  - component: {fileID: 11708271508056199}
   m_Layer: 0
   m_Name: Boar
   m_TagString: Enemy
@@ -158,7 +159,7 @@ Animator:
   m_GameObject: {fileID: 1019666325161021866}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f7f97cc3aed7474a8c3af5e3225be5b5, type: 2}
+  m_Controller: {fileID: 9100000, guid: a9ccb3ae07fc4776ae8f7a7614192185, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -207,3 +208,27 @@ CapsuleCollider2D:
   m_Offset: {x: -0.005623886, y: 0.015621239}
   m_Size: {x: 0.15126461, y: 0.15126461}
   m_Direction: 0
+--- !u!114 &11708271508056199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019666325161021866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f35f4dd3a3fbb6643a41e780da771a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  maxHealth: 100
+  destroyOnDeath: 1
+  invincibilityDuration: 0.5
+  OnHealthChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
