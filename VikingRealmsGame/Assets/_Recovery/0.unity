@@ -11828,7 +11828,8 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 60e7d131976ebe34bba05c1d39d6be46, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2671023194656200388, guid: 8a1b032ebfd9e99438931bbde1fda3bd, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5362500858095457673, guid: 8a1b032ebfd9e99438931bbde1fda3bd, type: 3}
@@ -17255,7 +17256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -18747,7 +18748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -22763,8 +22764,9 @@ GameObject:
   - component: {fileID: 833884987}
   - component: {fileID: 833884989}
   - component: {fileID: 833884988}
-  - component: {fileID: 833884991}
   - component: {fileID: 833884990}
+  - component: {fileID: 833884991}
+  - component: {fileID: 833884993}
   - component: {fileID: 833884992}
   m_Layer: 5
   m_Name: XPFill
@@ -22839,13 +22841,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 833884986}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 2, y: 2}
+  m_UseGraphicAlpha: 1
+--- !u!114 &833884991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833884986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d94084c62b1f42aa0bbda340071f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BarFillAnimator
+  fillImage: {fileID: 833884988}
+  fillSpeed: 8
+--- !u!114 &833884992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833884986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d9b0f1b4ee05a440ab195a61885ded5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::XPFlashEffect
   fillImage: {fileID: 833884988}
   flashTime: 0.25
   flashColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &833884991
+--- !u!114 &833884993
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22861,20 +22892,6 @@ MonoBehaviour:
   darkBlue: {r: 0.05, g: 0.1, b: 0.3, a: 1}
   midBlue: {r: 0.2, g: 0.4, b: 0.8, a: 1}
   whiteBlue: {r: 0.8, g: 0.9, b: 1, a: 1}
---- !u!114 &833884992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833884986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d1d94084c62b1f42aa0bbda340071f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BarFillAnimator
-  fillImage: {fileID: 833884988}
-  fillSpeed: 8
 --- !u!1 &834646597
 GameObject:
   m_ObjectHideFlags: 0
@@ -25353,9 +25370,9 @@ GameObject:
   - component: {fileID: 1013589780}
   - component: {fileID: 1013589779}
   - component: {fileID: 1013589778}
+  - component: {fileID: 1013589783}
   - component: {fileID: 1013589782}
   - component: {fileID: 1013589781}
-  - component: {fileID: 1013589783}
   m_Layer: 5
   m_Name: EnergyFill
   m_TagString: Untagged
@@ -25395,7 +25412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 1, y: -1}
+  m_EffectDistance: {x: 2, y: 2}
   m_UseGraphicAlpha: 1
 --- !u!114 &1013589779
 MonoBehaviour:
@@ -25444,11 +25461,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1013589776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f055f15a181fe7f459c1d8b9206fb054, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d1d94084c62b1f42aa0bbda340071f5, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BarEnergyShimmer
+  m_EditorClassIdentifier: Assembly-CSharp::BarFillAnimator
   fillImage: {fileID: 1013589779}
-  shimmerSpeed: 3
+  fillSpeed: 8
 --- !u!114 &1013589782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25473,11 +25490,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1013589776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d1d94084c62b1f42aa0bbda340071f5, type: 3}
+  m_Script: {fileID: 11500000, guid: f055f15a181fe7f459c1d8b9206fb054, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BarFillAnimator
+  m_EditorClassIdentifier: Assembly-CSharp::BarEnergyShimmer
   fillImage: {fileID: 1013589779}
-  fillSpeed: 8
+  shimmerSpeed: 3
 --- !u!1 &1024552493
 GameObject:
   m_ObjectHideFlags: 0
@@ -26592,11 +26609,11 @@ GameObject:
   - component: {fileID: 1103357698}
   - component: {fileID: 1103357697}
   - component: {fileID: 1103357696}
-  - component: {fileID: 1103357702}
-  - component: {fileID: 1103357699}
   - component: {fileID: 1103357703}
-  - component: {fileID: 1103357700}
+  - component: {fileID: 1103357702}
   - component: {fileID: 1103357701}
+  - component: {fileID: 1103357700}
+  - component: {fileID: 1103357699}
   m_Layer: 5
   m_Name: HealthFill
   m_TagString: Untagged
@@ -26636,7 +26653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 1, y: -1}
+  m_EffectDistance: {x: 2, y: 2}
   m_UseGraphicAlpha: 0
 --- !u!114 &1103357697
 MonoBehaviour:
@@ -26727,14 +26744,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1103357694}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ae469a464a302c4d8625d5668800e47, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d1d94084c62b1f42aa0bbda340071f5, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HealthColorGradient
+  m_EditorClassIdentifier: Assembly-CSharp::BarFillAnimator
   fillImage: {fileID: 1103357697}
-  full: {r: 0.2, g: 0.9, b: 0.2, a: 1}
-  mid: {r: 1, g: 0.8, b: 0.2, a: 1}
-  low: {r: 1, g: 0.4, b: 0.1, a: 1}
-  critical: {r: 1, g: 0.1, b: 0.1, a: 1}
+  fillSpeed: 8
 --- !u!114 &1103357703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26744,11 +26758,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1103357694}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d1d94084c62b1f42aa0bbda340071f5, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ae469a464a302c4d8625d5668800e47, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BarFillAnimator
+  m_EditorClassIdentifier: Assembly-CSharp::HealthColorGradient
   fillImage: {fileID: 1103357697}
-  fillSpeed: 8
+  full: {r: 0.2, g: 0.9, b: 0.2, a: 1}
+  mid: {r: 1, g: 0.8, b: 0.2, a: 1}
+  low: {r: 1, g: 0.4, b: 0.1, a: 1}
+  critical: {r: 1, g: 0.1, b: 0.1, a: 1}
 --- !u!1 &1118668038
 GameObject:
   m_ObjectHideFlags: 0
@@ -39702,20 +39719,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HUDController
   stats: {fileID: 2077030638}
-  healthFill: {fileID: 1103357703}
-  healthColor: {fileID: 1103357702}
+  healthFill: {fileID: 1103357702}
+  healthColor: {fileID: 1103357703}
   damageFlash: {fileID: 1103357701}
   healGlow: {fileID: 1103357700}
   lowHealthPulse: {fileID: 1103357699}
   healthText: {fileID: 903251862}
-  energyFill: {fileID: 1013589783}
+  energyFill: {fileID: 1013589781}
   energyColor: {fileID: 1013589782}
-  energyShimmer: {fileID: 1013589781}
+  energyShimmer: {fileID: 1013589783}
   energyText: {fileID: 1775478344}
-  xpFill: {fileID: 833884992}
+  xpFill: {fileID: 833884991}
   xpText: {fileID: 163561661}
-  xpColor: {fileID: 833884991}
-  xpFlash: {fileID: 833884990}
+  xpColor: {fileID: 833884993}
+  xpFlash: {fileID: 833884992}
   levelText: {fileID: 1118668040}
   talentPointsText: {fileID: 1580517931}
 --- !u!1 &1800602186

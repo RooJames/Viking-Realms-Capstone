@@ -3113,7 +3113,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -320, y: -13}
+  m_AnchoredPosition: {x: -345, y: -13}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &163561661
@@ -17199,6 +17199,11 @@ GameObject:
   - component: {fileID: 754719605}
   - component: {fileID: 754719604}
   - component: {fileID: 754719603}
+  - component: {fileID: 754719610}
+  - component: {fileID: 754719609}
+  - component: {fileID: 754719608}
+  - component: {fileID: 754719607}
+  - component: {fileID: 754719606}
   m_Layer: 5
   m_Name: HealthBar
   m_TagString: Untagged
@@ -17280,6 +17285,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 754719601}
   m_CullTransparentMesh: 1
+--- !u!114 &754719606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754719601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 349c213fc20093b46a3f4cc1e93c5b92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BarLowHealthPulse
+  fillImage: {fileID: 0}
+  pulseSpeed: 2
+--- !u!114 &754719607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754719601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac9e51fe8d32da4a8954fcf0481b2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BarHealGlow
+  fillImage: {fileID: 0}
+  glowTime: 0.2
+--- !u!114 &754719608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754719601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7f54efb5d56f34f854be4dd70ddae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BarDamageFlash
+  fillImage: {fileID: 0}
+  flashDuration: 0.1
+--- !u!114 &754719609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754719601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ae469a464a302c4d8625d5668800e47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthColorGradient
+  fillImage: {fileID: 0}
+  full: {r: 0.2, g: 0.9, b: 0.2, a: 1}
+  mid: {r: 1, g: 0.8, b: 0.2, a: 1}
+  low: {r: 1, g: 0.4, b: 0.1, a: 1}
+  critical: {r: 1, g: 0.1, b: 0.1, a: 1}
+--- !u!114 &754719610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754719601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d94084c62b1f42aa0bbda340071f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BarFillAnimator
+  fillImage: {fileID: 1103357697}
+  fillSpeed: 8
 --- !u!1 &755055830
 GameObject:
   m_ObjectHideFlags: 0
@@ -18691,6 +18769,9 @@ GameObject:
   - component: {fileID: 763907004}
   - component: {fileID: 763907003}
   - component: {fileID: 763907002}
+  - component: {fileID: 763907006}
+  - component: {fileID: 763907005}
+  - component: {fileID: 763907007}
   m_Layer: 5
   m_Name: EnergyBar
   m_TagString: Untagged
@@ -18772,6 +18853,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 763907000}
   m_CullTransparentMesh: 1
+--- !u!114 &763907005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763907000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82318f55481b3ce4a8d08527e016b5e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnergyColorGradient
+  fillImage: {fileID: 1013589779}
+  full: {r: 1, g: 0.9, b: 0.2, a: 1}
+  low: {r: 0.8, g: 0.6, b: 0.1, a: 1}
+--- !u!114 &763907006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763907000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d94084c62b1f42aa0bbda340071f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BarFillAnimator
+  fillImage: {fileID: 0}
+  fillSpeed: 8
+--- !u!114 &763907007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763907000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f055f15a181fe7f459c1d8b9206fb054, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BarEnergyShimmer
+  fillImage: {fileID: 0}
+  shimmerSpeed: 3
 --- !u!1 &764233011
 GameObject:
   m_ObjectHideFlags: 0
@@ -22763,9 +22887,6 @@ GameObject:
   - component: {fileID: 833884987}
   - component: {fileID: 833884989}
   - component: {fileID: 833884988}
-  - component: {fileID: 833884991}
-  - component: {fileID: 833884990}
-  - component: {fileID: 833884992}
   m_Layer: 5
   m_Name: XPFill
   m_TagString: Untagged
@@ -22830,51 +22951,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 833884986}
   m_CullTransparentMesh: 1
---- !u!114 &833884990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833884986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d9b0f1b4ee05a440ab195a61885ded5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::XPFlashEffect
-  fillImage: {fileID: 833884988}
-  flashTime: 0.25
-  flashColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &833884991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833884986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bdb77444295f604e90f859622b2ac96, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::XPColorGradient
-  fillImage: {fileID: 833884988}
-  darkBlue: {r: 0.05, g: 0.1, b: 0.3, a: 1}
-  midBlue: {r: 0.2, g: 0.4, b: 0.8, a: 1}
-  whiteBlue: {r: 0.8, g: 0.9, b: 1, a: 1}
---- !u!114 &833884992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833884986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d1d94084c62b1f42aa0bbda340071f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BarFillAnimator
-  fillImage: {fileID: 833884988}
-  fillSpeed: 8
 --- !u!1 &834646597
 GameObject:
   m_ObjectHideFlags: 0
@@ -25353,9 +25429,6 @@ GameObject:
   - component: {fileID: 1013589780}
   - component: {fileID: 1013589779}
   - component: {fileID: 1013589778}
-  - component: {fileID: 1013589782}
-  - component: {fileID: 1013589781}
-  - component: {fileID: 1013589783}
   m_Layer: 5
   m_Name: EnergyFill
   m_TagString: Untagged
@@ -25435,49 +25508,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013589776}
   m_CullTransparentMesh: 1
---- !u!114 &1013589781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1013589776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f055f15a181fe7f459c1d8b9206fb054, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BarEnergyShimmer
-  fillImage: {fileID: 1013589779}
-  shimmerSpeed: 3
---- !u!114 &1013589782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1013589776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82318f55481b3ce4a8d08527e016b5e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnergyColorGradient
-  fillImage: {fileID: 1013589779}
-  full: {r: 1, g: 0.9, b: 0.2, a: 1}
-  low: {r: 0.8, g: 0.6, b: 0.1, a: 1}
---- !u!114 &1013589783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1013589776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d1d94084c62b1f42aa0bbda340071f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BarFillAnimator
-  fillImage: {fileID: 1013589779}
-  fillSpeed: 8
 --- !u!1 &1024552493
 GameObject:
   m_ObjectHideFlags: 0
@@ -26592,11 +26622,6 @@ GameObject:
   - component: {fileID: 1103357698}
   - component: {fileID: 1103357697}
   - component: {fileID: 1103357696}
-  - component: {fileID: 1103357702}
-  - component: {fileID: 1103357699}
-  - component: {fileID: 1103357703}
-  - component: {fileID: 1103357700}
-  - component: {fileID: 1103357701}
   m_Layer: 5
   m_Name: HealthFill
   m_TagString: Untagged
@@ -26676,79 +26701,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103357694}
   m_CullTransparentMesh: 1
---- !u!114 &1103357699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103357694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 349c213fc20093b46a3f4cc1e93c5b92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BarLowHealthPulse
-  fillImage: {fileID: 1103357697}
-  pulseSpeed: 2
---- !u!114 &1103357700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103357694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ac9e51fe8d32da4a8954fcf0481b2a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BarHealGlow
-  fillImage: {fileID: 1103357697}
-  glowTime: 0.2
---- !u!114 &1103357701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103357694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f7f54efb5d56f34f854be4dd70ddae6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BarDamageFlash
-  fillImage: {fileID: 1103357697}
-  flashDuration: 0.1
---- !u!114 &1103357702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103357694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ae469a464a302c4d8625d5668800e47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HealthColorGradient
-  fillImage: {fileID: 1103357697}
-  full: {r: 0.2, g: 0.9, b: 0.2, a: 1}
-  mid: {r: 1, g: 0.8, b: 0.2, a: 1}
-  low: {r: 1, g: 0.4, b: 0.1, a: 1}
-  critical: {r: 1, g: 0.1, b: 0.1, a: 1}
---- !u!114 &1103357703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103357694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d1d94084c62b1f42aa0bbda340071f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BarFillAnimator
-  fillImage: {fileID: 1103357697}
-  fillSpeed: 8
 --- !u!1 &1118668038
 GameObject:
   m_ObjectHideFlags: 0
@@ -35993,6 +35945,7 @@ GameObject:
   - component: {fileID: 1498159412}
   - component: {fileID: 1498159415}
   - component: {fileID: 1498159414}
+  - component: {fileID: 1498159413}
   m_Layer: 5
   m_Name: XPBar
   m_TagString: Untagged
@@ -36012,8 +35965,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 833884987}
   - {fileID: 163561660}
+  - {fileID: 833884987}
   m_Father: {fileID: 1128677598}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -36021,6 +35974,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 500, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1498159413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498159411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d94084c62b1f42aa0bbda340071f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BarFillAnimator
+  fillImage: {fileID: 0}
+  fillSpeed: 8
 --- !u!114 &1498159414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39702,20 +39669,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HUDController
   stats: {fileID: 2077030638}
-  healthFill: {fileID: 1103357703}
-  healthColor: {fileID: 1103357702}
-  damageFlash: {fileID: 1103357701}
-  healGlow: {fileID: 1103357700}
-  lowHealthPulse: {fileID: 1103357699}
+  healthFill: {fileID: 754719610}
+  healthColor: {fileID: 754719609}
+  damageFlash: {fileID: 754719608}
+  healGlow: {fileID: 754719607}
+  lowHealthPulse: {fileID: 754719606}
   healthText: {fileID: 903251862}
-  energyFill: {fileID: 1013589783}
-  energyColor: {fileID: 1013589782}
-  energyShimmer: {fileID: 1013589781}
+  energyFill: {fileID: 763907006}
+  energyColor: {fileID: 763907005}
+  energyShimmer: {fileID: 763907007}
   energyText: {fileID: 1775478344}
-  xpFill: {fileID: 833884992}
+  xpFill: {fileID: 1498159413}
   xpText: {fileID: 163561661}
-  xpColor: {fileID: 833884991}
-  xpFlash: {fileID: 833884990}
+  xpColor: {fileID: 0}
+  xpFlash: {fileID: 0}
   levelText: {fileID: 1118668040}
   talentPointsText: {fileID: 1580517931}
 --- !u!1 &1800602186
