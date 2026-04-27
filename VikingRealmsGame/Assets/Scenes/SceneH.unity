@@ -24032,7 +24032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5db0b5b913d4bef4cbd5588393429e7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  duration: 300
+  duration: 1000
   gradient:
     serializedVersion: 2
     key0: {r: 0.03137255, g: 0.02745098, b: 0.05490196, a: 1}
@@ -26357,11 +26357,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8088620954593679354, guid: a97b93e7c2f6b6f439386f8cc507036e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 23.4
+      value: 23.59
       objectReference: {fileID: 0}
     - target: {fileID: 8088620954593679354, guid: a97b93e7c2f6b6f439386f8cc507036e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 24.8
+      value: 19.53
       objectReference: {fileID: 0}
     - target: {fileID: 8088620954593679354, guid: a97b93e7c2f6b6f439386f8cc507036e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
