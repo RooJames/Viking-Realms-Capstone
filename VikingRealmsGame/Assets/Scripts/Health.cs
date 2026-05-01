@@ -14,6 +14,10 @@ public class Health : MonoBehaviour, IDamageable
     public UnityEvent<float> OnDamaged;              
     public UnityEvent OnDeath;
 
+    [Header("Damage SFX")]
+    public AudioSource damageAudioSource;
+    public AudioClip damageSfx;
+
     public float MaxHealth => maxHealth;
     public float CurrentHealth { get; private set; }
     public bool IsDead { get; private set; }
@@ -45,6 +49,12 @@ public class Health : MonoBehaviour, IDamageable
         if (isInvincible) return;
 
         CurrentHealth = Mathf.Clamp(CurrentHealth - amount, 0f, maxHealth);
+
+        if (GSController.sfxOn && damageAudioSource && damageSfx)
+        {
+            damageAudioSource.PlayOneShot(damageSfx);
+        }
+
         OnDamaged?.Invoke(amount);
         OnHealthChanged?.Invoke(CurrentHealth, maxHealth);
 

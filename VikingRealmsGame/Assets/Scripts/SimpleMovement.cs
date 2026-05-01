@@ -3,18 +3,23 @@ using UnityEngine;
 public class SimpleMovment : MonoBehaviour
 {
     public float speed = 5f;
+    public float exhaustedSpeed = 2f;
     public Rigidbody2D rb;
     public Animator anim;
 
-    // Last direction moved/aimed (used for shooting)
-    public Vector2 AimDirection { get; private set; } = Vector2.right;
+    private PlayerStats stats;
 
-    // NEW: Expose movement input for PlayerDash
+    public Vector2 AimDirection { get; private set; } = Vector2.right;
     public Vector2 MoveInput { get; private set; }
+
+    [Header("Walking SFX")]
+    public AudioSource walkAudioSource;
+    public AudioClip walkSfx;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        stats = GetComponent<PlayerStats>();
 
         if (anim == null)
             anim = GetComponent<Animator>();
@@ -26,22 +31,19 @@ public class SimpleMovment : MonoBehaviour
         float vertical = Input.GetAxisRaw("Vertical");
 
         Vector2 input = new Vector2(horizontal, vertical);
-
-        // NEW: expose input to other scripts
         MoveInput = input;
 
-        // Update aim direction ONLY when moving
+        HandleWalkingSFX(input);
+
         if (input.sqrMagnitude > 0.01f)
             AimDirection = input.normalized;
 
-        // Flip only horizontally
         if ((horizontal > 0 && transform.localScale.x < 0) ||
             (horizontal < 0 && transform.localScale.x > 0))
         {
             FlipHorizontal();
         }
 
-        // Animator params
         if (anim != null)
         {
             anim.SetFloat("MoveX", horizontal);
@@ -49,8 +51,31 @@ public class SimpleMovment : MonoBehaviour
             anim.SetBool("IsMoving", input.sqrMagnitude > 0.01f);
         }
 
-        // Movement
-        rb.linearVelocity = input * speed;
+        float currentSpeed = stats != null && stats.isExhausted ? exhaustedSpeed : speed;
+
+        rb.linearVelocity = input.normalized * currentSpeed;
+    }
+
+    void HandleWalkingSFX(Vector2 input)
+    {
+        bool isMoving = input.sqrMagnitude > 0.01f;
+
+        if (isMoving && GSController.sfxOn)
+        {
+            if (walkAudioSource && walkSfx && !walkAudioSource.isPlaying)
+            {
+                walkAudioSource.clip = walkSfx;
+                walkAudioSource.loop = true;
+                walkAudioSource.Play();
+            }
+        }
+        else
+        {
+            if (walkAudioSource && walkAudioSource.isPlaying)
+            {
+                walkAudioSource.Stop();
+            }
+        }
     }
 
     void FlipHorizontal()
