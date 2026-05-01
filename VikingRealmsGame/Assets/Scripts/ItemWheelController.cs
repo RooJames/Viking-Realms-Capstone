@@ -27,6 +27,7 @@ public class ItemWheelController : MonoBehaviour
     private GameObject[] assignedItemPrefabs = new GameObject[8]; // Prefabs to instantiate
     private Slot[] assignedSlots = new Slot[8]; // Track which slots are assigned
     private int nextAvailableWheelSlot = 0; // Next wheel slot to fill
+    private MenuController menuController;
 
     void Start()
     {
@@ -37,6 +38,8 @@ public class ItemWheelController : MonoBehaviour
         
         if (itemDictionary == null)
             itemDictionary = FindAnyObjectByType<ItemDictionary>();
+
+        menuController = FindAnyObjectByType<MenuController>();
         
         // Auto-discover wheel button controllers
         if (wheelButtonsParent != null)
@@ -53,12 +56,34 @@ public class ItemWheelController : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Closes the weapon wheel (called externally, e.g. when inventory opens).
+    /// </summary>
+    public void CloseWheel()
+    {
+        weaponWheelSelected = false;
+        itemWheel.SetActive(false);
+    }
+
+    /// <summary>
+    /// Shows or hides the persistent selected-item HUD icon (bottom-right).
+    /// </summary>
+    public void SetSelectedItemVisible(bool visible)
+    {
+        if (selectedItem != null)
+            selectedItem.gameObject.SetActive(visible);
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.I))
         {
             weaponWheelSelected = !weaponWheelSelected;
             itemWheel.SetActive(weaponWheelSelected);
+
+            // Close the inventory whenever the wheel opens or closes
+            if (menuController != null)
+                menuController.CloseInventory();
         }
 
         if (weaponWheelSelected)

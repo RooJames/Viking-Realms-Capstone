@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -6366217715376897048}
   - component: {fileID: -5460712352378893692}
   - component: {fileID: 3117275289854624106}
+  - component: {fileID: 6228394517083746152}
   m_Layer: 0
   m_Name: NPC_006
   m_TagString: NPC
@@ -195,7 +196,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1.2
+  m_Radius: 3
 --- !u!95 &-5460712352378893692
 Animator:
   serializedVersion: 7
@@ -240,3 +241,24 @@ MonoBehaviour:
   - {fileID: 7729908992102188625, guid: 9b73f04aaaae45b287b4b017fc80018d, type: 3}
   - {fileID: -6562485200520523812, guid: 9b73f04aaaae45b287b4b017fc80018d, type: 3}
   animator: {fileID: -5460712352378893692}
+--- !u!114 &6228394517083746152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4111556740060170671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5775a021a52d42849897af25fe15a0d1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::QuestGiver
+  questToOffer: {fileID: 0}
+  questToComplete: {fileID: 0}
+  questContext: {fileID: 11400000, guid: b2c3d4e5f6789012abcdef1234567890, type: 2}
+  questContextLines:
+  - The Guard sent you, did he? How thoughtful of him to check in on me.
+  - I am well, traveler. Tell him I have plenty of herbs and want for nothing.
+  - Safe travels. Give the Guard my regards.
+  questContextCompletedLines:
+  - It is good to see you again, traveler. The village is lucky to have you.

@@ -23,4 +23,6 @@ public class PlayerTalents : MonoBehaviour
         talentPoints--;
         OnPointsChanged?.Invoke(talentPoints);
     }
+    
+    
 }

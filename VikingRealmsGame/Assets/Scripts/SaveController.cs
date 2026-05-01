@@ -8,6 +8,7 @@ public class SaveController : MonoBehaviour
     private InventoryController inventoryController;
     private List<string> collectedItemIDs = new List<string>();
 
+
     void Start()
     {
         saveLocation = Path.Combine(Application.persistentDataPath, "saveData.json");
@@ -29,6 +30,7 @@ public class SaveController : MonoBehaviour
         saveData.playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
         saveData.inventorySaveData = inventoryController.GetInventoryItems() ?? new List<InventorySaveData>();
         saveData.collectedItemIDs = new List<string>(collectedItemIDs);
+
 
         // Save all opened chests
         Chest[] chests = FindObjectsByType<Chest>(FindObjectsSortMode.None);
@@ -59,6 +61,7 @@ public class SaveController : MonoBehaviour
         if (File.Exists(saveLocation))
         {
             SaveData saveData = JsonUtility.FromJson<SaveData>(File.ReadAllText(saveLocation));
+
 
             // Restore player position
             GameObject.FindGameObjectWithTag("Player").transform.position = saveData.playerPosition;

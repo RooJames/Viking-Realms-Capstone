@@ -33,6 +33,14 @@ public class DialogueUI : MonoBehaviour
         if (continueButton != null) continueButton.onClick.AddListener(OnContinue);
     }
 
+    void Update()
+    {
+        // Allow keyboard to advance / close dialogue (same key used to open, plus Space/Enter)
+        if (!IsOpen) return;
+        if (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
+            OnContinue();
+    }
+
     // Call this from NPC.Interact()
     public void ShowDialogue(string npcName, string[] lines)
     {
@@ -51,7 +59,7 @@ public class DialogueUI : MonoBehaviour
         if (bodyText != null) bodyText.text = _lines[_lineIndex];
     }
 
-    // Bound to the Continue button
+    // Bound to the Continue button and keyboard
     private void OnContinue()
     {
         _lineIndex++;
