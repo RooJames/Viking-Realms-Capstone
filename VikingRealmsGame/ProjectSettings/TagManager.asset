@@ -70,5 +70,8 @@ TagManager:
   - name: EnvironmentalEffects (EE1)
     uniqueID: 2178663357
     locked: 0
+  - name: projectile
+    uniqueID: 1802279773
+    locked: 0
   m_RenderingLayers:
   - Default

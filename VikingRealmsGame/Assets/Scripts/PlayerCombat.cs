@@ -159,7 +159,8 @@ public class PlayerCombat : MonoBehaviour
 
     // Spawn slightly in front of player
     //float spawnOffset = 0.70f;
-    Vector3 spawnPos = aim.position + (Vector3)(dir);
+    Vector3 spawnPos = transform.position + (Vector3)(dir * bulletSpawnOffset);
+spawnPos.z = 0f;
 
     GameObject b = Instantiate(bulletPrefab, spawnPos, Quaternion.identity);
 
