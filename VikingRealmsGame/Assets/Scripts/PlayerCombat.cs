@@ -57,7 +57,7 @@ public class PlayerCombat : MonoBehaviour
         }
 
         // Melee
-        if ((Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.E)
             && atkCooldownTimer >= atkCooldown
             && !isAttacking)
         {

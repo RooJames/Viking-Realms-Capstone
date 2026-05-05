@@ -23,10 +23,15 @@ public class Weapon : MonoBehaviour
             hitThisSwing.Add(collision);
         }
 
-        Health hp = collision.GetComponentInParent<Health>();
-        if (hp != null)
+        // Try OrcHealth first, then fall back to any other IDamageable (e.g. Health)
+        OrcHealth orcHealth = collision.GetComponentInParent<OrcHealth>();
+        IDamageable damageable = orcHealth != null
+            ? orcHealth
+            : collision.GetComponentInParent<IDamageable>();
+
+        if (damageable != null)
         {
-            hp.TakeDamage(Mathf.RoundToInt(damage));
+            damageable.TakeDamage(damage);
 
             if (weaponType == WeaponType.Bullet)
                 Destroy(gameObject);
