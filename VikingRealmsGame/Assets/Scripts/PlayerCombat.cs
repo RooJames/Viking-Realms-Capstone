@@ -27,6 +27,11 @@ public class PlayerCombat : MonoBehaviour
 
     private float shootTimer = 0f;
 
+    [Header("Combat SFX")]
+    public AudioSource actionAudioSource;
+    public AudioClip meleeSfx;
+    public AudioClip blastSfx;
+
     void Start()
     {
         if (anim == null) anim = GetComponent<Animator>();
@@ -72,6 +77,11 @@ public class PlayerCombat : MonoBehaviour
         atkTimer = 0f;
         atkCooldownTimer = 0f;
 
+        if (GSController.sfxOn && actionAudioSource && meleeSfx)
+        {
+            actionAudioSource.PlayOneShot(meleeSfx);
+        }
+
         // Determine attack direction from last movement
         Vector2 dir = (move != null) ? move.AimDirection : Vector2.right;
 
@@ -92,7 +102,7 @@ public class PlayerCombat : MonoBehaviour
             anim.SetFloat("LastMoveX", snapDir.x);
             anim.SetFloat("LastMoveY", snapDir.y);
             anim.SetBool("isAttacking", true);
-            anim.SetTrigger("Melee");
+            anim.SetTrigger("attack"); //melee
         }
 
         // Reposition hitbox to match attack direction
@@ -129,6 +139,11 @@ public class PlayerCombat : MonoBehaviour
 
     if (bulletPrefab == null || aim == null) return;
 
+    if (GSController.sfxOn && actionAudioSource && blastSfx)
+    {
+        actionAudioSource.PlayOneShot(blastSfx);
+    }
+
     // Get last movement direction
     Vector2 rawDir = (move != null) ? move.AimDirection : Vector2.right;
 
@@ -144,7 +159,8 @@ public class PlayerCombat : MonoBehaviour
 
     // Spawn slightly in front of player
     //float spawnOffset = 0.70f;
-    Vector3 spawnPos = aim.position + (Vector3)(dir);
+    Vector3 spawnPos = transform.position + (Vector3)(dir * bulletSpawnOffset);
+spawnPos.z = 0f;
 
     GameObject b = Instantiate(bulletPrefab, spawnPos, Quaternion.identity);
 

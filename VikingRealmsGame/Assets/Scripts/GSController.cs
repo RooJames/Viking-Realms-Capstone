@@ -26,7 +26,7 @@ public class GSController : MonoBehaviour
 
     private bool settingsOpen = false;
     private bool musicOn = true;
-    private bool sfxOn = true;
+    public static bool sfxOn = true;
 
     void Start()
     {
