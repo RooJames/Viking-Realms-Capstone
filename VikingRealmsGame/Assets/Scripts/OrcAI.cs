@@ -23,6 +23,8 @@ public class OrcAI : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator animator;
+    private PlayerStats playerStats;
+    private OrcHealth orcHealth;
 
     private float nextAttackTime;
 
@@ -49,12 +51,18 @@ public class OrcAI : MonoBehaviour
             if (p != null) player = p.transform;
         }
 
+        if (player != null)
+            playerStats = player.GetComponent<PlayerStats>();
+
+        orcHealth = GetComponent<OrcHealth>();
+
         PickNewPatrol();
     }
 
     void Update()
     {
         if (player == null) return;
+        if (orcHealth != null && orcHealth.IsDead) return;
 
         float dist = Vector2.Distance(transform.position, player.position);
 
@@ -67,6 +75,7 @@ public class OrcAI : MonoBehaviour
     void FixedUpdate()
     {
         if (player == null) return;
+        if (orcHealth != null && orcHealth.IsDead) return;
 
         Vector2 velocity = Vector2.zero;
 
@@ -145,6 +154,10 @@ public class OrcAI : MonoBehaviour
             animator.SetTrigger("attack");
 
         nextAttackTime = Time.time + attackCooldown;
+
+        // Deal damage to the player
+        if (playerStats != null)
+            playerStats.TakeDamage(damage);
     }
 
     void PickNewPatrol()
