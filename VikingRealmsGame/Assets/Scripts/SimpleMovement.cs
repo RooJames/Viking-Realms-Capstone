@@ -12,6 +12,10 @@ public class SimpleMovment : MonoBehaviour
     public Vector2 AimDirection { get; private set; } = Vector2.right;
     public Vector2 MoveInput { get; private set; }
 
+    [Header("Walking SFX")]
+    public AudioSource walkAudioSource;
+    public AudioClip walkSfx;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -28,6 +32,8 @@ public class SimpleMovment : MonoBehaviour
 
         Vector2 input = new Vector2(horizontal, vertical);
         MoveInput = input;
+
+        HandleWalkingSFX(input);
 
         if (input.sqrMagnitude > 0.01f)
             AimDirection = input.normalized;
@@ -48,6 +54,28 @@ public class SimpleMovment : MonoBehaviour
         float currentSpeed = stats != null && stats.isExhausted ? exhaustedSpeed : speed;
 
         rb.linearVelocity = input.normalized * currentSpeed;
+    }
+
+    void HandleWalkingSFX(Vector2 input)
+    {
+        bool isMoving = input.sqrMagnitude > 0.01f;
+
+        if (isMoving && GSController.sfxOn)
+        {
+            if (walkAudioSource && walkSfx && !walkAudioSource.isPlaying)
+            {
+                walkAudioSource.clip = walkSfx;
+                walkAudioSource.loop = true;
+                walkAudioSource.Play();
+            }
+        }
+        else
+        {
+            if (walkAudioSource && walkAudioSource.isPlaying)
+            {
+                walkAudioSource.Stop();
+            }
+        }
     }
 
     void FlipHorizontal()
